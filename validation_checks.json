@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "automatic_checks": [
+    "full_schema_and_source_validation",
+    "rejects_null_instead_of_array",
+    "rejects_unsupported_excerpt",
+    "rejects_changed_rating",
+    "rejects_invented_url",
+    "invalidates_changed_record_cache",
+    "preserves_and_flags_unknown_categories_and_zero_score",
+    "preserves_ambiguous_and_invalid_dates",
+    "draft_only_no_synthetic_reviews"
+  ],
+  "semantic_correctness_proven": false,
+  "note": "The bundled validator implements the JSON Schema keywords used by this schema; it is not a general-purpose JSON Schema engine. Semantic review is separate."
+}

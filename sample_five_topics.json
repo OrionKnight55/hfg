@@ -1,0 +1,2213 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "risk_id": "R0353",
+    "source_record": {
+      "row_number": 2,
+      "fields": {
+        "Risk ID": "R0353",
+        "Risk Title": "Taliban attacks on provincial capitals lead to civil war violence levels, resulting in humanitarian needs for the affected population.",
+        "Risk Type": "New emerging risk",
+        "ISO": "AFG",
+        "Country": "Afghanistan",
+        "Rationale": "The Afghan government claims to be in a strategic retreat in several Helmand districts, though it is disputed that this is a full scale retreat. Strategic government districts in the province are under attack by the Taliban from several sides. ",
+        "Source": null,
+        "Intensity of hazard": null,
+        "Impact": null,
+        "Probability": null,
+        "Risk Level": null,
+        "Risk trend": null,
+        "Status": "Not materialised",
+        "What materialised?": null,
+        "Hazard materialisation": null,
+        "Materialisation sources": null,
+        "Triggers": null,
+        "Current vulnerability / Coping capacities": null,
+        "Current vulnerability / Coping capacities sources": null,
+        "Expected exposure": "<20,000",
+        "Expected impact": null,
+        "Expected impact sources": null,
+        "Expected priority needs": null,
+        "Impact materialisation description": null,
+        "Rationale update": null
+      }
+    },
+    "acaps_assessment": {
+      "title": {
+        "raw": "Taliban attacks on provincial capitals lead to civil war violence levels, resulting in humanitarian needs for the affected population.",
+        "normalized": "Taliban attacks on provincial capitals lead to civil war violence levels, resulting in humanitarian needs for the affected population."
+      },
+      "risk_type": {
+        "raw": "New emerging risk",
+        "normalized": "New emerging risk"
+      },
+      "risk_level": {
+        "raw": null,
+        "normalized": null
+      },
+      "probability": {
+        "raw": null,
+        "normalized": null
+      },
+      "impact": {
+        "raw": null,
+        "normalized": null
+      },
+      "hazard_intensity": {
+        "raw": null,
+        "normalized": null
+      },
+      "risk_trend": {
+        "raw": null,
+        "normalized": null
+      },
+      "status": {
+        "raw": "Not materialised",
+        "normalized": "Not materialised"
+      },
+      "exposure_category": {
+        "raw": "<20,000",
+        "normalized": "<20,000"
+      },
+      "countries": {
+        "raw": "Afghanistan",
+        "normalized": [
+          "Afghanistan"
+        ]
+      },
+      "iso_codes": {
+        "raw": "AFG",
+        "normalized": [
+          "AFG"
+        ]
+      },
+      "priority_needs": {
+        "raw": null,
+        "normalized": []
+      }
+    },
+    "ai_content": {
+      "label": "AI-generated draft",
+      "short_title": "Taliban attacks threaten provincial capitals and increase humanitarian needs",
+      "summary": "The historical assessment warns that Taliban attacks on provincial capitals in Afghanistan could escalate violence and humanitarian needs. Its rationale describes attacks on strategic districts in Helmand and disputes over whether government movements constitute a retreat. It provides no dated update or detailed impact assessment; the export does not establish conditions today.",
+      "key_assessment_points": [
+        {
+          "point_id": "R0353-assessment-a6962332d0e4",
+          "text": "Attacks on strategic government districts in Helmand underpin the forecast of wider violence.",
+          "origin": "agent_ai",
+          "support": {
+            "risk_id": "R0353",
+            "source_column": "Rationale",
+            "excerpt": "The Afghan government claims to be in a strategic retreat in several Helmand districts, though it is disputed that this is a full scale retreat. Strategic government districts in the province are under attack by the Taliban from several sides. ",
+            "source_urls": [],
+            "url_association": "not_available",
+            "excerpt_scope": "source_field"
+          }
+        }
+      ],
+      "expected_humanitarian_impacts": [
+        {
+          "point_id": "R0353-impact-04e5ac6e3730",
+          "text": "Escalating attacks could increase humanitarian needs among affected populations.",
+          "origin": "agent_ai",
+          "support": {
+            "risk_id": "R0353",
+            "source_column": "Risk Title",
+            "excerpt": "Taliban attacks on provincial capitals lead to civil war violence levels, resulting in humanitarian needs for the affected population.",
+            "source_urls": [],
+            "url_association": "not_available",
+            "excerpt_scope": "source_field"
+          }
+        }
+      ],
+      "vulnerabilities": [],
+      "coping_capacities": [],
+      "suggested_expert_review_questions": [
+        {
+          "question_id": "R0353-question-b9f5f65a1dd9",
+          "text": "Do local accounts support the assessment of attacks on strategic districts in Helmand?",
+          "origin": "agent_ai",
+          "label": "AI-generated suggestion"
+        },
+        {
+          "question_id": "R0353-question-8f7e3eae517e",
+          "text": "Which provincial capitals and affected groups would require a more specific humanitarian impact assessment?",
+          "origin": "agent_ai",
+          "label": "AI-generated suggestion"
+        }
+      ]
+    },
+    "triggers": [],
+    "updates": [],
+    "sources": [],
+    "chart_data": {
+      "type": "ordinal_probability_impact_matrix",
+      "available": false,
+      "probability_label": null,
+      "probability_position": null,
+      "impact_score": null,
+      "risk_level": null,
+      "unavailable_reason": "Missing or unrecognized probability or impact",
+      "scale_note": "Probability positions 1–5 are ordinal categories, not percentages. Exposure is not an exact count."
+    },
+    "quality_flags": [
+      {
+        "code": "moderator_review_required",
+        "detail": "Draft; source links have not been independently verified."
+      },
+      {
+        "code": "export_status_not_current_verification",
+        "detail": "Status is copied from this export, not checked as of today."
+      },
+      {
+        "code": "claim_url_association_uncertain",
+        "detail": "Claim support uses source text; record-level links are not automatically assigned to claims."
+      },
+      {
+        "code": "surrounding_whitespace",
+        "detail": "Rationale"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Source"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Intensity of hazard"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Impact"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Probability"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Risk Level"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Risk trend"
+      },
+      {
+        "code": "missing_field",
+        "detail": "What materialised?"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Hazard materialisation"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Materialisation sources"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Triggers"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Current vulnerability / Coping capacities"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Current vulnerability / Coping capacities sources"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Expected impact"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Expected impact sources"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Expected priority needs"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Impact materialisation description"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Rationale update"
+      },
+      {
+        "code": "selective_semantic_extraction",
+        "detail": "Agent drafted a selective overview using source title and narrative overview excerpts. All source text is retained; exhaustive claim coverage and full-record semantic review are not asserted."
+      },
+      {
+        "code": "no_coping_capacity_extracted",
+        "detail": "No positive capacity selected; this does not establish that none exists."
+      }
+    ],
+    "provenance": {
+      "source_record_sha256": "dffaf58f6ca6eb1f433562b6691262799c64bcf3a1a2232c592e4f7893e189f4",
+      "source_file_sha256": "dfe92309b9fd2cfa017378713212baf1edb1287ba00837945d120a4586df86e5",
+      "ai_execution_mode": "agent_produced_in_chat",
+      "model": null,
+      "prompt_version": "1.0",
+      "processing_status": "processed_draft",
+      "semantic_review": "agent_review_of_source_overview; full_record_moderator_review_required",
+      "ai_input_scope": "Selective source overview: title and narrative openings (typically up to 850 rationale, 600 impact, 550 vulnerability, and 750 characters per update after URL removal); five initial records and selected issue/capacity passages received additional reading. Full source retained. Not an exhaustive semantic review."
+    },
+    "publication_status": {
+      "state": "draft",
+      "requires_moderator_review": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "risk_id": "R0990",
+    "source_record": {
+      "row_number": 3,
+      "fields": {
+        "Risk ID": "R0990",
+        "Risk Title": "Unsafe return of Afghan nationals from Pakistan causes food, shelter and livelihood shortage upon their arrival at Afghanistan along with risk of persecution. ",
+        "Risk Type": "New emerging risk",
+        "ISO": "AFG",
+        "Country": "Afghanistan",
+        "Rationale": "Pakistan is hosting around 1.5 million Afghan refugees as of October 2024. In 2023, Pakistan government initiated a massive repatriation of approximately 4 million Afghans who were mainly undocumented and termed as illegal foreign nation. Alone in 2024, around 1.2 million Afghans has returned to Afghanistan from Pakistan and Iran, which has created a burning humanitarian need upon their arrival. The return is continuing in 2025 with an increase of 44% in February 2025 than the previous month. Afghanistan's dire economic condition and funding gap has impacted in people's food security, shelter and livelihood need which has intensified with US Funding Freeze declaration as an aggravating factor.  \nAccording to IPC Afghanistan is facing severe food insecurity with projection of 14.8 million people classified in level 3 or above will need urgent humanitarian food assistance between November 2024 to March 2025. The scenario has high provability to worsen with the fund cut declared by US Government. Afghanistan is struggling to meet basic services need for the residents with an estimated 6.3 million people in protracted displacement. \nPakistan has declared a deportation plan for Afghan Nationals living in Pakistan setting a deadline for 31st March 2025, while Iran also declared the plan to deport 2 million Afghans by March 2025. Approximately 1.2 million Afghan refugees in Pakistan are affected by the funding freeze, leading to the closure of over 60 health facilities that provided essential services, left many without access to essential medical services, exacerbating health risks. This situation has caused panic among Afghan refugees, who fear returning to Afghanistan due to potential persecution and economic hardships under Taliban rule.\nSince the Taliban's takeover in 2021, over 500,000 Afghans have been living without proper documentation in Pakistan, awaiting resettlement. Afghan refugees in Pakistan, particularly those who collaborated with U.S. organizations, are confronting heightened risks due to the recent suspension of U.S. funding and the halt of resettlement programs. These individuals now face potential deportation from Pakistan, where authorities have intensified pressure on undocumented Afghans to return to Afghanistan. They fear persecution, and thus not willing to return to Afghanistan. \nContinuing with the current detention, arrest, harassment scenario by government agency in Pakistan and Iran, Afghan refugees will be forced to return to Afghanistan in any unsafe way, and they will face protection needs along with basic humanitarian assistance for survival. This will further create an emerging need of humanitarian assistance in Afghanistan, while the country is already having a dire situation specially after US Fund cut. \n\n",
+        "Source": "https://apnews.com/article/pakistan-afghans-deportation-trump-resettlement-dbaede0bdc6bf475363d25af290e0315 \nhttps://www.dawn.com/news/1889947/pause-on-us-foreign-assistance-to-affect-17m-pakistanis-including-12m-afghan-refugees? \nhttps://apnews.com/article/pakistan-human-rights-watch-afghans-forced-returns-2c957d9ee7ce0feb9c04bab70c6172d8 \nhttps://time.com/7221555/afghan-refugees-pakistan-stuck-trump-executive-order/ \nhttps://www.theguardian.com/us-news/2025/jan/21/donald-trump-inauguration-refugee-ban-afghanistan \nhttps://www.military.com/daily-news/2025/03/18/trumps-funding-freeze-leaves-us-allied-afghan-refugees-struggling-basics.html \nhttps://www.globalissues.org/news/2025/02/16/39094 \nhttps://www.reuters.com/world/us/afghans-who-worked-with-us-should-be-exempt-aid-refugee-freeze-advocacy-group-2025-02-09/ \nhttps://reporting.unhcr.org/operational/operations/islamic-republic-pakistan#:~:text=As%20of%20October%202024%2C%20Pakistan,both%20of%20which%20border%20Afghanistan \nhttps://reliefweb.int/report/pakistan/pakistan-forced-returns-expose-afghans-persecution-destitution-endaripsde#:~:text=A%20previous%20wave%20of%20deportations,renewed%20pressure%20to%20expel%20Afghans \nhttps://www.dw.com/en/why-is-pakistan-expelling-afghan-refugees/a-71732536 \nhttps://www.aljazeera.com/news/2024/6/30/pakistan-to-start-second-phase-of-afghan-deportations \nhttps://www.unocha.org/publications/report/afghanistan/afghanistan-humanitarian-needs-and-response-plan-2025-december-2024 \nhttps://reliefweb.int/report/afghanistan/afghanistan-ipc-acute-food-insecurity-analysis-september-2024-march-2025-published-7-january-2025 \nhttps://www.dw.com/en/iran-plans-to-deport-2-million-afghan-refugees/a-70201549 \nhttps://drc.ngo/resources/news/afghans-increasingly-forced-to-return-from-iran-an-overlooked-population-in-dire-need-of-protection/ \n\n\nhttps://www.amnesty.org.au/meet-three-afghans-at-risk-of-deportation-from-pakistan/ \nhttps://www.hrw.org/news/2025/03/19/pakistan  -forced-returns-expose-afghans-persecution-destitution \nhttps://www.dawn.com/news/1892849 \nhttps://reliefweb.int/report/afghanistan/afghan-nationals-return-pakistan-april-2025-dref-operation-mdrpk027 \nhttps://reliefweb.int/report/afghanistan/integrated-response-plan-afghan-returnees-pakistan-border-response-and-reintegration-response-areas-return#:~:text=By%2026%20April%202025%2C%20986%2C268,January%20and%2026%20April%202025 \nhttps://english.news.cn/asiapacific/20250505/d0fce92406584609a4144e2a491ef996/c.html \n",
+        "Intensity of hazard": "3",
+        "Impact": "4",
+        "Probability": "Medium",
+        "Risk Level": "Medium",
+        "Risk trend": "Deteriorated",
+        "Status": "Materialised",
+        "What materialised?": "Impact",
+        "Hazard materialisation": null,
+        "Materialisation sources": "https://reliefweb.int/report/afghanistan/integrated-response-plan-afghan-returnees-pakistan-border-response-and-reintegration-response-areas-return#:~:text=The%20Government%20of%20Pakistan's%20%22Illegal,to%20end%20of%20December%202025 \nhttps://www.aljazeera.com/gallery/2025/5/23/afghan-returnees-face-dire-challenges-amid-deepening-humanitarian-crisis \nhttps://www.iom.int/news/nearly-110000-afghans-returned-pakistan-month-iom-seeks-urgent-funding \nhttps://amu.tv/168451/? \nhttps://islamic-relief.org/news/majority-of-afghan-returnees-from-pakistan-dont-have-shelter-or-food-new-survey-finds/ \nhttps://www.savethechildren.net/news/afghanistan-250000-children-need-food-homes-and-education-after-returning-pakistan \nhttps://news.un.org/en/story/2023/11/1143827 \nhttps://www.voanews.com/a/afghan-children-returning-from-pakistan-face-grim-reality-survey-finds/7575232.html \nhttps://www.theguardian.com/world/2025/mar/30/it-means-death-afghan-womens-rights-activists-face-deportation-from-pakistan ",
+        "Triggers": "Trigger ID: R0990 - T0481\nTitle: US fund freeze\nDescription: \nThe aid suspension declared by US government has a severe impact in Afghanistan which is mostly dependent on foreign aid. The fund freeze has impacted healthcare services in the country with affecting millions who are in need of urgent medical assistance. The fund cut also have an impact in other sectors, such as food, livelihood etc. This worsening scenario is not feasible to accommodate large number of returnees from Pakistan. \nSources: \nhttps://www.voanews.com/a/how-pause-in-us-foreign-aid-is-impacting-south-central-asia/7971248.html ; https://reliefweb.int/report/afghanistan/afghanistan-suspended-health-facilities-due-us-government-work-stop-ban-update-19-february-2025 ; https://www.reuters.com/world/asia-pacific/just-bread-tea-wfp-says-aid-cuts-afghanistan-leave-millions-hungry-this-winter-2025-01-27/ \nCompletion rate: \nCompletion rate history: \n\nQuantitative objective to meet 100%: \n\nTrend: \nTrend history: \n\nDate entered: 08-04-2025\nLast update: 09-04-2025\n\n\nTrigger ID: R0990 - T0485\nTitle: IRAN's Deportation Plan\nDescription: \nIran has announced the deportation plan for 2 million refugees by March 2025. If the large number of Afghans has to return from Iran, that will create a huge burden for Afghanistan to accommodate. Considering the situation in Afghanistan, humanitarian assistance required for the existing population is high, these returnees from Pakistan and Iran on a sudden will create an extreme scenario, Afghanistan will not be able to adjust.  \nSources: \nhttps://www.dw.com/en/iran-plans-to-deport-2-million-afghan-refugees/a-70201549 ; https://drc.ngo/resources/news/afghans-increasingly-forced-to-return-from-iran-an-overlooked-population-in-dire-need-of-protection/ \nCompletion rate: \nCompletion rate history: \n\nQuantitative objective to meet 100%: \n\nTrend: \nTrend history: \n\nDate entered: 09-04-2025\nLast update: 09-04-2025",
+        "Current vulnerability / Coping capacities": "Afghanistan food insecurity situation is acute as the country is highly susceptible to natural disasters, including droughts and floods. Consecutive years of drought have devastated agricultural production, while recent floods have displaced communities and destroyed infrastructure, further compromising food security. ​With existing number of people facing severe food insecurity, addition sudden returnee from Pakistan will make scenario worse. \nThe Taliban's restrictive policies, particularly against women and girls, have led to violation of human rights for long and also impacted with international sanctions and reduced foreign aid. These measures will have serious impact on the returnees specifically women, human rights activist, LGBTQI+ individuals etc. \nAfghanistan's capacity to cope with these compounded crises is severely limited. The healthcare system is deteriorating due to funding shortages, leading to the closure of over 200 health facilities and leaving approximately 1.84 million people without access to medical care. Additionally, the agricultural sector's decline has increased reliance on humanitarian aid, which is now diminishing. Shelter need is high for flood affected people, similarly livelihood opportunities are very limited. \nAfghanistan is not in a position to accommodate such large number of returnees with required basic needs available in the country.",
+        "Current vulnerability / Coping capacities sources": "https://crisisresponse.iom.int/response/afghanistan-crisis-response-plan-2024 ;\nhttps://www.orfonline.org/research/the-crisis-of-food-insecurity-in-afghanistan ; https://www.germanwatch.org/en/cri#:~:text=CRI%202025%20ranking%20and%20results,urgent%20need%20for%20climate%20action ; ",
+        "Expected exposure": "250,000-500,000",
+        "Expected impact": "The forced return of Afghan nationals from Pakistan will significantly exacerbate Afghanistan's humanitarian crisis, impacting food security, shelter availability, livelihoods, and increased risk of persecution for vulnerable groups.\nAfghanistan is already handling with severe food shortages, with over 13 million people facing acute food insecurity. The influx of returnees will intensify competition for limited resources, heightening malnutrition and starvation risks.\nMany returnees arrive without adequate housing, leading to overcrowded conditions or homelessness. Reports indicate that 90% of new arrivals lack proper shelter, exposing them to harsh weather conditions and associated health risks.\nCertain groups, including women's rights activists, face heightened risks upon return. There are reports of activists fearing imprisonment or death under the current regime. ",
+        "Expected impact sources": "https://irusa.org/majority-of-afghan-returnees-from-pakistan-dont-have-shelter-or-food-new-survey-finds/ ; https://www.theguardian.com/world/2025/mar/30/it-means-death-afghan-womens-rights-activists-face-deportation-from-pakistan ; https://www.arabnews.com/node/2595912/world ; https://borgenproject.org/migration-to-pakistan/ ",
+        "Expected priority needs": "Food security, Health, Protection, Shelter",
+        "Impact materialisation description": "In late May 2025, the forced repatriation of Afghan nationals from Pakistan intensified, triggering a growing humanitarian crisis in Afghanistan. Since Pakistan’s crackdown on undocumented foreigners in September 2023, over 850,000 Afghans have been deported or have returned under pressure, with daily arrivals now averaging between 7,000–10,000 individuals. In response to the mounting crisis, the Afghan authorities, in collaboration with international humanitarian organisations, have launched an Integrated Response Plan for Returnees. This initiative aims to address both immediate needs – such as shelter, food, and medical assistance – and long-term reintegration challenges, including livelihood support and legal documentation.\nDespite this, the situation remains dire. Upon arrival, most returnees are received in temporary camps that are already overcrowded and underresourced. In many cases, several families are forced to share a single tent. Access to clean water, sanitation, and healthcare is severely limited, heightening health risks, particularly among children and older people.\nWomen and girls face some of the harshest consequences of the return. An estimated 150,000 school-age girls have returned since the crackdown began, most of whom remain barred from attending school owing to Taliban-imposed restrictions. Women-headed households, in particular, face heightened economic insecurity, as women are banned from working in most sectors, severely limiting their ability to provide for their families.\nChildren are also critically affected. Reports indicate that over 250,000 children returning from Pakistan are in urgent need of shelter, food, and education. Approximately 65% of them are currently not enrolled in school, primarily given a lack of documentation or gender-based restrictions. Alarmingly, 99% of returnee families report insufficient food to last more than a few weeks.\nHuman rights defenders, former government workers, and those with ties to foreign military forces face serious protection risks, including arbitrary detention and persecution. There are also widespread reports of abuse, including extortion by Pakistani authorities during detention and deportation processes.\nProjections suggest that if Pakistan’s deportation campaign continues unchecked, tens of thousands more will be forced to return, potentially overwhelming Afghanistan’s already fragile infrastructure and deepening its humanitarian crisis.\n",
+        "Rationale update": "UPDATE 08/05/2025\nBetween April and early May 2025, the forced return of Afghan nationals from Pakistan intensified, aggravating humanitarian challenges in Afghanistan. In April alone, over 118,400 Afghans returned, including approximately 25,600 deportees. The majority of these returnees are undocumented individuals, constituting 72% of the April returns, followed by Afghan Citizen Card holders (22%) and Proof of Registration cardholders (6%). Women and girls constitute approximately 49% of the returnees. Many arrive with limited resources, facing immediate shortages in food, shelter, and livelihoods. A significant number report difficulties in securing basic necessities, with many unable to return to their original provinces or districts, compounding their vulnerability. The situation is particularly dire for women, children, and minority groups, who face heightened risks of persecution and exploitation upon return, particularly given the current sociopolitical situation in Afghanistan.\nDespite many organisations providing support with basic urgent needs, the huge number of returnees are anticipated to face severe shortages of food, housing, and healthcare, along with protection risks, in the coming days. Considering the urgent needs of returnees, organisations such as IOM, UNHCR, and IFRC have launched emergency appeals, highlighting the need for further protection and integration concerns.\n"
+      }
+    },
+    "acaps_assessment": {
+      "title": {
+        "raw": "Unsafe return of Afghan nationals from Pakistan causes food, shelter and livelihood shortage upon their arrival at Afghanistan along with risk of persecution. ",
+        "normalized": "Unsafe return of Afghan nationals from Pakistan causes food, shelter and livelihood shortage upon their arrival at Afghanistan along with risk of persecution."
+      },
+      "risk_type": {
+        "raw": "New emerging risk",
+        "normalized": "New emerging risk"
+      },
+      "risk_level": {
+        "raw": "Medium",
+        "normalized": "Medium"
+      },
+      "probability": {
+        "raw": "Medium",
+        "normalized": "Medium"
+      },
+      "impact": {
+        "raw": "4",
+        "normalized": 4
+      },
+      "hazard_intensity": {
+        "raw": "3",
+        "normalized": 3
+      },
+      "risk_trend": {
+        "raw": "Deteriorated",
+        "normalized": "Deteriorated"
+      },
+      "status": {
+        "raw": "Materialised",
+        "normalized": "Materialised"
+      },
+      "exposure_category": {
+        "raw": "250,000-500,000",
+        "normalized": "250,000-500,000"
+      },
+      "countries": {
+        "raw": "Afghanistan",
+        "normalized": [
+          "Afghanistan"
+        ]
+      },
+      "iso_codes": {
+        "raw": "AFG",
+        "normalized": [
+          "AFG"
+        ]
+      },
+      "priority_needs": {
+        "raw": "Food security, Health, Protection, Shelter",
+        "normalized": [
+          "Food security",
+          "Health",
+          "Protection",
+          "Shelter"
+        ]
+      }
+    },
+    "ai_content": {
+      "label": "AI-generated draft",
+      "short_title": "Forced Afghan returns increase basic needs and protection risks",
+      "summary": "The original assessment warns that forced returns from Pakistan could deepen food, shelter, livelihood, and protection needs in Afghanistan, especially for vulnerable returnees. Economic hardship, reduced assistance, and persecution concerns limit safe reintegration. The “08/05/2025” update reports intensified returns during April and early May and immediate shortages; these reported developments are distinct from the assessment’s anticipated further consequences.",
+      "key_assessment_points": [
+        {
+          "point_id": "R0990-assessment-f8f0704dbe86",
+          "text": "Forced returns could intensify needs in an already resource-constrained humanitarian response.",
+          "origin": "agent_ai",
+          "support": {
+            "risk_id": "R0990",
+            "source_column": "Rationale",
+            "excerpt": "Pakistan is hosting around 1.5 million Afghan refugees as of October 2024. In 2023, Pakistan government initiated a massive repatriation of approximately 4 million Afghans who were mainly undocumented and termed as illegal foreign nation. Alone in 2024, around 1.2 million Afghans has returned to Afghanistan from Pakistan and Iran, which has created a burning humanitarian need upon their arrival. The return is continuing in 2025 with an increase of 44% in February 2025 than the previous month. Afghanistan's dire economic condition and funding gap has impacted in people's food security, shelter and livelihood need which has intensified with US Funding Freeze declaration as an aggravating factor.  \nAccording to IPC Afghanistan is facing severe food insecurity with projection of 14.8 million people classified in level 3 or above will need urgent humanitarian food assistance between November 2024 to March 2025. The scenario has high provability to worsen with the fund cut declared by US Government. Afghanistan is struggling to meet basic services need for the residents with an estimated 6.3 million people in protracted displacement. \nPakistan has declared a deportation plan for Afghan Nationals living in Pakistan setting a deadline for 31st March 2025, while Iran also declared the plan to deport 2 million Afghans by March 2025. Approximately 1.2 million Afghan refugees in Pakistan are affected by the funding freeze, leading to the closure of over 60 health facilities that provided essential services, left many without access to essential medical services, exacerbating health risks. This situation has caused panic among Afghan refugees, who fear returning to Afghanistan due to potential persecution and economic hardships under Taliban rule.\nSince the Taliban's takeover in 2021, over 500,000 Afghans have been living without proper documentation in Pakistan, awaiting resettlement. Afghan refugees in Pakistan, particularly those who collaborated with U.S. organizations, are confronting heightened risks due to the recent suspension of U.S. funding and the halt of resettlement programs. These individuals now face potential deportation from Pakistan, where authorities have intensified pressure on undocumented Afghans to return to Afghanistan. They fear persecution, and thus not willing to return to Afghanistan. \nContinuing with the current detention, arrest, harassment scenario by government agency in Pakistan and Iran, Afghan refugees will be forced to return to Afghanistan in any unsafe way, and they will face protection needs along with basic humanitarian assistance for survival. This will further create an emerging need of humanitarian assistance in Afghanistan, while the country is already having a dire situation specially after US Fund cut. \n\n",
+            "source_urls": [],
+            "url_association": "uncertain",
+            "excerpt_scope": "source_field"
+          }
+        }
+      ],
+      "expected_humanitarian_impacts": [
+        {
+          "point_id": "R0990-impact-553fb39aaae2",
+          "text": "Returnees could face inadequate shelter, food shortages, livelihood loss, and persecution.",
+          "origin": "agent_ai",
+          "support": {
+            "risk_id": "R0990",
+            "source_column": "Expected impact",
+            "excerpt": "The forced return of Afghan nationals from Pakistan will significantly exacerbate Afghanistan's humanitarian crisis, impacting food security, shelter availability, livelihoods, and increased risk of persecution for vulnerable groups.\nAfghanistan is already handling with severe food shortages, with over 13 million people facing acute food insecurity. The influx of returnees will intensify competition for limited resources, heightening malnutrition and starvation risks.\nMany returnees arrive without adequate housing, leading to overcrowded conditions or homelessness. Reports indicate that 90% of new arrivals lack proper shelter, exposing them to harsh weather conditions and associated health risks.\nCertain groups, including women's rights activists, face heightened risks upon return. There are reports of activists fearing imprisonment or death under the current regime. ",
+            "source_urls": [],
+            "url_association": "uncertain",
+            "excerpt_scope": "source_field"
+          }
+        }
+      ],
+      "vulnerabilities": [
+        {
+          "point_id": "R0990-vulnerability-eaf88eced16b",
+          "text": "Drought, flood damage, restrictive policies, and limited services compound returnee vulnerability.",
+          "origin": "agent_ai",
+          "support": {
+            "risk_id": "R0990",
+            "source_column": "Current vulnerability / Coping capacities",
+            "excerpt": "Afghanistan food insecurity situation is acute as the country is highly susceptible to natural disasters, including droughts and floods. Consecutive years of drought have devastated agricultural production, while recent floods have displaced communities and destroyed infrastructure, further compromising food security. ​With existing number of people facing severe food insecurity, addition sudden returnee from Pakistan will make scenario worse. \nThe Taliban's restrictive policies, particularly against women and girls, have led to violation of human rights for long and also impacted with international sanctions and reduced foreign aid. These measures will have serious impact on the returnees specifically women, human rights activist, LGBTQI+ individuals etc. \nAfghanistan's capacity to cope with these compounded crises is severely limited. The healthcare system is deteriorating due to funding shortages, leading to the closure of over 200 health facilities and leaving approximately 1.84 million people without access to medical care. Additionally, the agricultural sector's decline has increased reliance on humanitarian aid, which is now diminishing. Shelter need is high for flood affected people, similarly livelihood opportunities are very limited. \nAfghanistan is not in a position to accommodate such large number of returnees with required basic needs available in the country.",
+            "source_urls": [],
+            "url_association": "uncertain",
+            "excerpt_scope": "source_field"
+          }
+        }
+      ],
+      "coping_capacities": [],
+      "suggested_expert_review_questions": [
+        {
+          "question_id": "R0990-question-4e26d51d7634",
+          "text": "Which returnee groups face the greatest documented protection risks after arrival?",
+          "origin": "agent_ai",
+          "label": "AI-generated suggestion"
+        },
+        {
+          "question_id": "R0990-question-5ac715056079",
+          "text": "What evidence shows whether shelter and food assistance can keep pace with returns?",
+          "origin": "agent_ai",
+          "label": "AI-generated suggestion"
+        }
+      ]
+    },
+    "triggers": [
+      {
+        "trigger_id": "R0990 - T0481",
+        "point_id": "R0990-trigger-808cb23d397f",
+        "title": "US fund freeze",
+        "description": "The aid suspension declared by US government has a severe impact in Afghanistan which is mostly dependent on foreign aid. The fund freeze has impacted healthcare services in the country with affecting millions who are in need of urgent medical assistance. The fund cut also have an impact in other sectors, such as food, livelihood etc. This worsening scenario is not feasible to accommodate large number of returnees from Pakistan.",
+        "origin": "deterministic_source_parse",
+        "completion_rate_percent": null,
+        "completion_rate_raw": null,
+        "completion_criterion": null,
+        "dates": {
+          "Date entered": {
+            "raw": "08-04-2025",
+            "normalized": null,
+            "certainty": "ambiguous_day_month"
+          },
+          "Last update": {
+            "raw": "09-04-2025",
+            "normalized": null,
+            "certainty": "ambiguous_day_month"
+          }
+        },
+        "source_urls": [
+          "https://www.voanews.com/a/how-pause-in-us-foreign-aid-is-impacting-south-central-asia/7971248.html",
+          "https://reliefweb.int/report/afghanistan/afghanistan-suspended-health-facilities-due-us-government-work-stop-ban-update-19-february-2025",
+          "https://www.reuters.com/world/asia-pacific/just-bread-tea-wfp-says-aid-cuts-afghanistan-leave-millions-hungry-this-winter-2025-01-27/"
+        ],
+        "completion_history": [],
+        "raw_fields": {
+          "Trigger ID": "R0990 - T0481",
+          "Title": "US fund freeze",
+          "Description": "The aid suspension declared by US government has a severe impact in Afghanistan which is mostly dependent on foreign aid. The fund freeze has impacted healthcare services in the country with affecting millions who are in need of urgent medical assistance. The fund cut also have an impact in other sectors, such as food, livelihood etc. This worsening scenario is not feasible to accommodate large number of returnees from Pakistan.",
+          "Sources": "https://www.voanews.com/a/how-pause-in-us-foreign-aid-is-impacting-south-central-asia/7971248.html ; https://reliefweb.int/report/afghanistan/afghanistan-suspended-health-facilities-due-us-government-work-stop-ban-update-19-february-2025 ; https://www.reuters.com/world/asia-pacific/just-bread-tea-wfp-says-aid-cuts-afghanistan-leave-millions-hungry-this-winter-2025-01-27/",
+          "Completion rate": null,
+          "Completion rate history": null,
+          "Quantitative objective to meet 100%": null,
+          "Trend": null,
+          "Trend history": null,
+          "Date entered": "08-04-2025",
+          "Last update": "09-04-2025"
+        },
+        "support": {
+          "risk_id": "R0990",
+          "source_column": "Triggers",
+          "excerpt": "Trigger ID: R0990 - T0481\nTitle: US fund freeze\nDescription: \nThe aid suspension declared by US government has a severe impact in Afghanistan which is mostly dependent on foreign aid. The fund freeze has impacted healthcare services in the country with affecting millions who are in need of urgent medical assistance. The fund cut also have an impact in other sectors, such as food, livelihood etc. This worsening scenario is not feasible to accommodate large number of returnees from Pakistan. \nSources: \nhttps://www.voanews.com/a/how-pause-in-us-foreign-aid-is-impacting-south-central-asia/7971248.html ; https://reliefweb.int/report/afghanistan/afghanistan-suspended-health-facilities-due-us-government-work-stop-ban-update-19-february-2025 ; https://www.reuters.com/world/asia-pacific/just-bread-tea-wfp-says-aid-cuts-afghanistan-leave-millions-hungry-this-winter-2025-01-27/ \nCompletion rate: \nCompletion rate history: \n\nQuantitative objective to meet 100%: \n\nTrend: \nTrend history: \n\nDate entered: 08-04-2025\nLast update: 09-04-2025\n\n\n",
+          "source_urls": [],
+          "url_association": "uncertain",
+          "excerpt_scope": "source_segment"
+        }
+      },
+      {
+        "trigger_id": "R0990 - T0485",
+        "point_id": "R0990-trigger-2e5c22efef1f",
+        "title": "IRAN's Deportation Plan",
+        "description": "Iran has announced the deportation plan for 2 million refugees by March 2025. If the large number of Afghans has to return from Iran, that will create a huge burden for Afghanistan to accommodate. Considering the situation in Afghanistan, humanitarian assistance required for the existing population is high, these returnees from Pakistan and Iran on a sudden will create an extreme scenario, Afghanistan will not be able to adjust.",
+        "origin": "deterministic_source_parse",
+        "completion_rate_percent": null,
+        "completion_rate_raw": null,
+        "completion_criterion": null,
+        "dates": {
+          "Date entered": {
+            "raw": "09-04-2025",
+            "normalized": null,
+            "certainty": "ambiguous_day_month"
+          },
+          "Last update": {
+            "raw": "09-04-2025",
+            "normalized": null,
+            "certainty": "ambiguous_day_month"
+          }
+        },
+        "source_urls": [
+          "https://www.dw.com/en/iran-plans-to-deport-2-million-afghan-refugees/a-70201549",
+          "https://drc.ngo/resources/news/afghans-increasingly-forced-to-return-from-iran-an-overlooked-population-in-dire-need-of-protection/"
+        ],
+        "completion_history": [],
+        "raw_fields": {
+          "Trigger ID": "R0990 - T0485",
+          "Title": "IRAN's Deportation Plan",
+          "Description": "Iran has announced the deportation plan for 2 million refugees by March 2025. If the large number of Afghans has to return from Iran, that will create a huge burden for Afghanistan to accommodate. Considering the situation in Afghanistan, humanitarian assistance required for the existing population is high, these returnees from Pakistan and Iran on a sudden will create an extreme scenario, Afghanistan will not be able to adjust.",
+          "Sources": "https://www.dw.com/en/iran-plans-to-deport-2-million-afghan-refugees/a-70201549 ; https://drc.ngo/resources/news/afghans-increasingly-forced-to-return-from-iran-an-overlooked-population-in-dire-need-of-protection/",
+          "Completion rate": null,
+          "Completion rate history": null,
+          "Quantitative objective to meet 100%": null,
+          "Trend": null,
+          "Trend history": null,
+          "Date entered": "09-04-2025",
+          "Last update": "09-04-2025"
+        },
+        "support": {
+          "risk_id": "R0990",
+          "source_column": "Triggers",
+          "excerpt": "Trigger ID: R0990 - T0485\nTitle: IRAN's Deportation Plan\nDescription: \nIran has announced the deportation plan for 2 million refugees by March 2025. If the large number of Afghans has to return from Iran, that will create a huge burden for Afghanistan to accommodate. Considering the situation in Afghanistan, humanitarian assistance required for the existing population is high, these returnees from Pakistan and Iran on a sudden will create an extreme scenario, Afghanistan will not be able to adjust.  \nSources: \nhttps://www.dw.com/en/iran-plans-to-deport-2-million-afghan-refugees/a-70201549 ; https://drc.ngo/resources/news/afghans-increasingly-forced-to-return-from-iran-an-overlooked-population-in-dire-need-of-protection/ \nCompletion rate: \nCompletion rate history: \n\nQuantitative objective to meet 100%: \n\nTrend: \nTrend history: \n\nDate entered: 09-04-2025\nLast update: 09-04-2025",
+          "source_urls": [],
+          "url_association": "uncertain",
+          "excerpt_scope": "source_segment"
+        }
+      }
+    ],
+    "updates": [
+      {
+        "update_id": "R0990-update-6dae788abefa",
+        "date": {
+          "raw": "08/05/2025",
+          "normalized": null,
+          "certainty": "ambiguous_day_month"
+        },
+        "summary": "Reports intensified Afghan returns from Pakistan and immediate shortages of food, shelter, and livelihoods, with particular protection concerns for vulnerable returnees.",
+        "summary_origin": "agent_ai",
+        "support": {
+          "risk_id": "R0990",
+          "source_column": "Rationale update",
+          "excerpt": "UPDATE 08/05/2025\nBetween April and early May 2025, the forced return of Afghan nationals from Pakistan intensified, aggravating humanitarian challenges in Afghanistan. In April alone, over 118,400 Afghans returned, including approximately 25,600 deportees. The majority of these returnees are undocumented individuals, constituting 72% of the April returns, followed by Afghan Citizen Card holders (22%) and Proof of Registration cardholders (6%). Women and girls constitute approximately 49% of the returnees. Many arrive with limited resources, facing immediate shortages in food, shelter, and livelihoods. A significant number report difficulties in securing basic necessities, with many unable to return to their original provinces or districts, compounding their vulnerability. The situation is particularly dire for women, children, and minority groups, who face heightened risks of persecution and exploitation upon return, particularly given the current sociopolitical situation in Afghanistan.\nDespite many organisations providing support with basic urgent needs, the huge number of returnees are anticipated to face severe shortages of food, housing, and healthcare, along with protection risks, in the coming days. Considering the urgent needs of returnees, organisations such as IOM, UNHCR, and IFRC have launched emergency appeals, highlighting the need for further protection and integration concerns.\n",
+          "source_urls": [],
+          "url_association": "uncertain",
+          "excerpt_scope": "source_field"
+        },
+        "source_urls": []
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "R0990-source-f8ff4fe2a5ea",
+        "url": "https://apnews.com/article/pakistan-afghans-deportation-trump-resettlement-dbaede0bdc6bf475363d25af290e0315",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-33c5b9ab9d38",
+        "url": "https://www.dawn.com/news/1889947/pause-on-us-foreign-assistance-to-affect-17m-pakistanis-including-12m-afghan-refugees?",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-070f51eb1e08",
+        "url": "https://apnews.com/article/pakistan-human-rights-watch-afghans-forced-returns-2c957d9ee7ce0feb9c04bab70c6172d8",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-a2858c275ff0",
+        "url": "https://time.com/7221555/afghan-refugees-pakistan-stuck-trump-executive-order/",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-695048516191",
+        "url": "https://www.theguardian.com/us-news/2025/jan/21/donald-trump-inauguration-refugee-ban-afghanistan",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-92ee0a4043e2",
+        "url": "https://www.military.com/daily-news/2025/03/18/trumps-funding-freeze-leaves-us-allied-afghan-refugees-struggling-basics.html",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-c216c665277b",
+        "url": "https://www.globalissues.org/news/2025/02/16/39094",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-aaa488ec225b",
+        "url": "https://www.reuters.com/world/us/afghans-who-worked-with-us-should-be-exempt-aid-refugee-freeze-advocacy-group-2025-02-09/",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-9cbcd93aa83f",
+        "url": "https://reporting.unhcr.org/operational/operations/islamic-republic-pakistan#:~:text=As%20of%20October%202024%2C%20Pakistan,both%20of%20which%20border%20Afghanistan",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-882939f6fb84",
+        "url": "https://reliefweb.int/report/pakistan/pakistan-forced-returns-expose-afghans-persecution-destitution-endaripsde#:~:text=A%20previous%20wave%20of%20deportations,renewed%20pressure%20to%20expel%20Afghans",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-e85a462675cd",
+        "url": "https://www.dw.com/en/why-is-pakistan-expelling-afghan-refugees/a-71732536",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-423781f8dd4d",
+        "url": "https://www.aljazeera.com/news/2024/6/30/pakistan-to-start-second-phase-of-afghan-deportations",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-7242ba2d84b3",
+        "url": "https://www.unocha.org/publications/report/afghanistan/afghanistan-humanitarian-needs-and-response-plan-2025-december-2024",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-93371394e67a",
+        "url": "https://reliefweb.int/report/afghanistan/afghanistan-ipc-acute-food-insecurity-analysis-september-2024-march-2025-published-7-january-2025",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-0f0fd8748294",
+        "url": "https://www.dw.com/en/iran-plans-to-deport-2-million-afghan-refugees/a-70201549",
+        "source_columns": [
+          "Source",
+          "Triggers"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-d23a6f50c5d6",
+        "url": "https://drc.ngo/resources/news/afghans-increasingly-forced-to-return-from-iran-an-overlooked-population-in-dire-need-of-protection/",
+        "source_columns": [
+          "Source",
+          "Triggers"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-4e9f84bd2f49",
+        "url": "https://www.amnesty.org.au/meet-three-afghans-at-risk-of-deportation-from-pakistan/",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-490cc55e51e3",
+        "url": "https://www.hrw.org/news/2025/03/19/pakistan",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-9df63a55093c",
+        "url": "https://www.dawn.com/news/1892849",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-77a70a8f577a",
+        "url": "https://reliefweb.int/report/afghanistan/afghan-nationals-return-pakistan-april-2025-dref-operation-mdrpk027",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-465c50087e12",
+        "url": "https://reliefweb.int/report/afghanistan/integrated-response-plan-afghan-returnees-pakistan-border-response-and-reintegration-response-areas-return#:~:text=By%2026%20April%202025%2C%20986%2C268,January%20and%2026%20April%202025",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-74e6919bec80",
+        "url": "https://english.news.cn/asiapacific/20250505/d0fce92406584609a4144e2a491ef996/c.html",
+        "source_columns": [
+          "Source"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-dae09586a320",
+        "url": "https://reliefweb.int/report/afghanistan/integrated-response-plan-afghan-returnees-pakistan-border-response-and-reintegration-response-areas-return#:~:text=The%20Government%20of%20Pakistan's%20%22Illegal,to%20end%20of%20December%202025",
+        "source_columns": [
+          "Materialisation sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-fff3aff4a5df",
+        "url": "https://www.aljazeera.com/gallery/2025/5/23/afghan-returnees-face-dire-challenges-amid-deepening-humanitarian-crisis",
+        "source_columns": [
+          "Materialisation sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-23b2604e321e",
+        "url": "https://www.iom.int/news/nearly-110000-afghans-returned-pakistan-month-iom-seeks-urgent-funding",
+        "source_columns": [
+          "Materialisation sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-c32950bd9fd4",
+        "url": "https://amu.tv/168451/?",
+        "source_columns": [
+          "Materialisation sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-2e14162d6332",
+        "url": "https://islamic-relief.org/news/majority-of-afghan-returnees-from-pakistan-dont-have-shelter-or-food-new-survey-finds/",
+        "source_columns": [
+          "Materialisation sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-563c49de7268",
+        "url": "https://www.savethechildren.net/news/afghanistan-250000-children-need-food-homes-and-education-after-returning-pakistan",
+        "source_columns": [
+          "Materialisation sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-b5e8267f77cb",
+        "url": "https://news.un.org/en/story/2023/11/1143827",
+        "source_columns": [
+          "Materialisation sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-c7a035882d22",
+        "url": "https://www.voanews.com/a/afghan-children-returning-from-pakistan-face-grim-reality-survey-finds/7575232.html",
+        "source_columns": [
+          "Materialisation sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-c462b7816683",
+        "url": "https://www.theguardian.com/world/2025/mar/30/it-means-death-afghan-womens-rights-activists-face-deportation-from-pakistan",
+        "source_columns": [
+          "Materialisation sources",
+          "Expected impact sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-b42eeeb31d6a",
+        "url": "https://www.voanews.com/a/how-pause-in-us-foreign-aid-is-impacting-south-central-asia/7971248.html",
+        "source_columns": [
+          "Triggers"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-75cde1be2fe1",
+        "url": "https://reliefweb.int/report/afghanistan/afghanistan-suspended-health-facilities-due-us-government-work-stop-ban-update-19-february-2025",
+        "source_columns": [
+          "Triggers"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-e67eff80998d",
+        "url": "https://www.reuters.com/world/asia-pacific/just-bread-tea-wfp-says-aid-cuts-afghanistan-leave-millions-hungry-this-winter-2025-01-27/",
+        "source_columns": [
+          "Triggers"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-3253dab7fad1",
+        "url": "https://crisisresponse.iom.int/response/afghanistan-crisis-response-plan-2024",
+        "source_columns": [
+          "Current vulnerability / Coping capacities sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-542ff6fd5e07",
+        "url": "https://www.orfonline.org/research/the-crisis-of-food-insecurity-in-afghanistan",
+        "source_columns": [
+          "Current vulnerability / Coping capacities sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-57d08880146f",
+        "url": "https://www.germanwatch.org/en/cri#:~:text=CRI%202025%20ranking%20and%20results,urgent%20need%20for%20climate%20action",
+        "source_columns": [
+          "Current vulnerability / Coping capacities sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-3139a8273876",
+        "url": "https://irusa.org/majority-of-afghan-returnees-from-pakistan-dont-have-shelter-or-food-new-survey-finds/",
+        "source_columns": [
+          "Expected impact sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-a9fa4138161f",
+        "url": "https://www.arabnews.com/node/2595912/world",
+        "source_columns": [
+          "Expected impact sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R0990-source-3faee4595c7c",
+        "url": "https://borgenproject.org/migration-to-pakistan/",
+        "source_columns": [
+          "Expected impact sources"
+        ],
+        "independently_verified": false
+      }
+    ],
+    "chart_data": {
+      "type": "ordinal_probability_impact_matrix",
+      "available": true,
+      "probability_label": "Medium",
+      "probability_position": 3,
+      "impact_score": 4,
+      "risk_level": "Medium",
+      "unavailable_reason": null,
+      "scale_note": "Probability positions 1–5 are ordinal categories, not percentages. Exposure is not an exact count."
+    },
+    "quality_flags": [
+      {
+        "code": "moderator_review_required",
+        "detail": "Draft; source links have not been independently verified."
+      },
+      {
+        "code": "export_status_not_current_verification",
+        "detail": "Status is copied from this export, not checked as of today."
+      },
+      {
+        "code": "claim_url_association_uncertain",
+        "detail": "Claim support uses source text; record-level links are not automatically assigned to claims."
+      },
+      {
+        "code": "surrounding_whitespace",
+        "detail": "Risk Title"
+      },
+      {
+        "code": "surrounding_whitespace",
+        "detail": "Rationale"
+      },
+      {
+        "code": "surrounding_whitespace",
+        "detail": "Source"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Hazard materialisation"
+      },
+      {
+        "code": "surrounding_whitespace",
+        "detail": "Materialisation sources"
+      },
+      {
+        "code": "invisible_whitespace",
+        "detail": "Current vulnerability / Coping capacities"
+      },
+      {
+        "code": "surrounding_whitespace",
+        "detail": "Current vulnerability / Coping capacities sources"
+      },
+      {
+        "code": "surrounding_whitespace",
+        "detail": "Expected impact"
+      },
+      {
+        "code": "surrounding_whitespace",
+        "detail": "Expected impact sources"
+      },
+      {
+        "code": "surrounding_whitespace",
+        "detail": "Impact materialisation description"
+      },
+      {
+        "code": "surrounding_whitespace",
+        "detail": "Rationale update"
+      },
+      {
+        "code": "update_date_ambiguous_day_month",
+        "detail": "08/05/2025"
+      },
+      {
+        "code": "trigger_date_ambiguous_day_month",
+        "detail": "Original trigger dates retained; uncertain dates not normalized."
+      },
+      {
+        "code": "selective_semantic_extraction",
+        "detail": "Agent drafted a selective overview using source title and narrative overview excerpts. All source text is retained; exhaustive claim coverage and full-record semantic review are not asserted."
+      },
+      {
+        "code": "no_coping_capacity_extracted",
+        "detail": "No positive capacity selected; this does not establish that none exists."
+      },
+      {
+        "code": "broad_support_excerpt",
+        "detail": "Some claims use a full source field as support; moderators should narrow excerpts."
+      }
+    ],
+    "provenance": {
+      "source_record_sha256": "4222dca3fd4a832465df8331ed1080b777f83ccdbd039d655c8bd7b28320773d",
+      "source_file_sha256": "dfe92309b9fd2cfa017378713212baf1edb1287ba00837945d120a4586df86e5",
+      "ai_execution_mode": "agent_produced_in_chat",
+      "model": null,
+      "prompt_version": "1.0",
+      "processing_status": "processed_draft",
+      "semantic_review": "agent_review_of_source_overview; full_record_moderator_review_required",
+      "ai_input_scope": "Selective source overview: title and narrative openings (typically up to 850 rationale, 600 impact, 550 vulnerability, and 750 characters per update after URL removal); five initial records and selected issue/capacity passages received additional reading. Full source retained. Not an exhaustive semantic review."
+    },
+    "publication_status": {
+      "state": "draft",
+      "requires_moderator_review": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "risk_id": "R0204",
+    "source_record": {
+      "row_number": 12,
+      "fields": {
+        "Risk ID": "R0204",
+        "Risk Title": "Increased violence in the capital and borders with Rwanda and DRC",
+        "Risk Type": "New emerging risk",
+        "ISO": "BDI, COD, RWA",
+        "Country": "Burundi, Democratic Republic of the Congo, Rwanda",
+        "Rationale": "Escalating violence in the capital continues to place the population in need of protection. Opposition sorties across border territories restricts access to people in need and causes additional displacement, internal and across borders. Already overcrowded refugee camps have additional strain placed on services. UNHCR has registered over 20,000 new refugees so far in 2016, and there are currently 25,000 reported IDPs. ",
+        "Source": null,
+        "Intensity of hazard": "2\n",
+        "Impact": "3",
+        "Probability": null,
+        "Risk Level": null,
+        "Risk trend": null,
+        "Status": null,
+        "What materialised?": null,
+        "Hazard materialisation": null,
+        "Materialisation sources": null,
+        "Triggers": null,
+        "Current vulnerability / Coping capacities": null,
+        "Current vulnerability / Coping capacities sources": null,
+        "Expected exposure": "20,000-100,000",
+        "Expected impact": null,
+        "Expected impact sources": null,
+        "Expected priority needs": null,
+        "Impact materialisation description": null,
+        "Rationale update": null
+      }
+    },
+    "acaps_assessment": {
+      "title": {
+        "raw": "Increased violence in the capital and borders with Rwanda and DRC",
+        "normalized": "Increased violence in the capital and borders with Rwanda and DRC"
+      },
+      "risk_type": {
+        "raw": "New emerging risk",
+        "normalized": "New emerging risk"
+      },
+      "risk_level": {
+        "raw": null,
+        "normalized": null
+      },
+      "probability": {
+        "raw": null,
+        "normalized": null
+      },
+      "impact": {
+        "raw": "3",
+        "normalized": 3
+      },
+      "hazard_intensity": {
+        "raw": "2\n",
+        "normalized": 2
+      },
+      "risk_trend": {
+        "raw": null,
+        "normalized": null
+      },
+      "status": {
+        "raw": null,
+        "normalized": null
+      },
+      "exposure_category": {
+        "raw": "20,000-100,000",
+        "normalized": "20,000-100,000"
+      },
+      "countries": {
+        "raw": "Burundi, Democratic Republic of the Congo, Rwanda",
+        "normalized": [
+          "Burundi",
+          "Democratic Republic of the Congo",
+          "Rwanda"
+        ]
+      },
+      "iso_codes": {
+        "raw": "BDI, COD, RWA",
+        "normalized": [
+          "BDI",
+          "COD",
+          "RWA"
+        ]
+      },
+      "priority_needs": {
+        "raw": null,
+        "normalized": []
+      }
+    },
+    "ai_content": {
+      "label": "AI-generated draft",
+      "short_title": "Violence threatens displacement and humanitarian access around Burundi’s borders",
+      "summary": "The historical record describes violence in Burundi’s capital and border areas involving Rwanda and the Democratic Republic of the Congo. It reports displacement, restricted humanitarian access, and pressure on overcrowded refugee camps, citing refugee figures from 2016. Continued violence could compound these needs. Missing ratings and an undated assessment prevent interpreting this as a current risk assessment.",
+      "key_assessment_points": [
+        {
+          "point_id": "R0204-assessment-7e85696adfa8",
+          "text": "Violence and cross-border opposition movements are associated with displacement and restricted access.",
+          "origin": "agent_ai",
+          "support": {
+            "risk_id": "R0204",
+            "source_column": "Rationale",
+            "excerpt": "Escalating violence in the capital continues to place the population in need of protection. Opposition sorties across border territories restricts access to people in need and causes additional displacement, internal and across borders. Already overcrowded refugee camps have additional strain placed on services. UNHCR has registered over 20,000 new refugees so far in 2016, and there are currently 25,000 reported IDPs. ",
+            "source_urls": [],
+            "url_association": "not_available",
+            "excerpt_scope": "source_field"
+          }
+        }
+      ],
+      "expected_humanitarian_impacts": [
+        {
+          "point_id": "R0204-impact-d5d1f357509c",
+          "text": "Continued violence could increase displacement, restrict humanitarian access, and strain refugee-camp services.",
+          "origin": "agent_ai",
+          "support": {
+            "risk_id": "R0204",
+            "source_column": "Rationale",
+            "excerpt": "Escalating violence in the capital continues to place the population in need of protection. Opposition sorties across border territories restricts access to people in need and causes additional displacement, internal and across borders. Already overcrowded refugee camps have additional strain placed on services. UNHCR has registered over 20,000 new refugees so far in 2016, and there are currently 25,000 reported IDPs. ",
+            "source_urls": [],
+            "url_association": "not_available",
+            "excerpt_scope": "source_field"
+          }
+        }
+      ],
+      "vulnerabilities": [],
+      "coping_capacities": [],
+      "suggested_expert_review_questions": [
+        {
+          "question_id": "R0204-question-42056f089c2b",
+          "text": "Which border routes and communities were most affected by the reported access restrictions?",
+          "origin": "agent_ai",
+          "label": "AI-generated suggestion"
+        },
+        {
+          "question_id": "R0204-question-bbd77765a0ea",
+          "text": "What dated evidence would be needed to reassess camp capacity and displacement now?",
+          "origin": "agent_ai",
+          "label": "AI-generated suggestion"
+        }
+      ]
+    },
+    "triggers": [],
+    "updates": [],
+    "sources": [],
+    "chart_data": {
+      "type": "ordinal_probability_impact_matrix",
+      "available": false,
+      "probability_label": null,
+      "probability_position": null,
+      "impact_score": null,
+      "risk_level": null,
+      "unavailable_reason": "Missing or unrecognized probability or impact",
+      "scale_note": "Probability positions 1–5 are ordinal categories, not percentages. Exposure is not an exact count."
+    },
+    "quality_flags": [
+      {
+        "code": "moderator_review_required",
+        "detail": "Draft; source links have not been independently verified."
+      },
+      {
+        "code": "export_status_not_current_verification",
+        "detail": "Status is copied from this export, not checked as of today."
+      },
+      {
+        "code": "claim_url_association_uncertain",
+        "detail": "Claim support uses source text; record-level links are not automatically assigned to claims."
+      },
+      {
+        "code": "surrounding_whitespace",
+        "detail": "Rationale"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Source"
+      },
+      {
+        "code": "surrounding_whitespace",
+        "detail": "Intensity of hazard"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Probability"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Risk Level"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Risk trend"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Status"
+      },
+      {
+        "code": "missing_field",
+        "detail": "What materialised?"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Hazard materialisation"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Materialisation sources"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Triggers"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Current vulnerability / Coping capacities"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Current vulnerability / Coping capacities sources"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Expected impact"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Expected impact sources"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Expected priority needs"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Impact materialisation description"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Rationale update"
+      },
+      {
+        "code": "selective_semantic_extraction",
+        "detail": "Agent drafted a selective overview using source title and narrative overview excerpts. All source text is retained; exhaustive claim coverage and full-record semantic review are not asserted."
+      },
+      {
+        "code": "no_coping_capacity_extracted",
+        "detail": "No positive capacity selected; this does not establish that none exists."
+      }
+    ],
+    "provenance": {
+      "source_record_sha256": "6cdb575c761e23200abcea3f59f1a52d773b9cd7062022a23a152441463904e6",
+      "source_file_sha256": "dfe92309b9fd2cfa017378713212baf1edb1287ba00837945d120a4586df86e5",
+      "ai_execution_mode": "agent_produced_in_chat",
+      "model": null,
+      "prompt_version": "1.0",
+      "processing_status": "processed_draft",
+      "semantic_review": "agent_review_of_source_overview; full_record_moderator_review_required",
+      "ai_input_scope": "Selective source overview: title and narrative openings (typically up to 850 rationale, 600 impact, 550 vulnerability, and 750 characters per update after URL removal); five initial records and selected issue/capacity passages received additional reading. Full source retained. Not an exhaustive semantic review."
+    },
+    "publication_status": {
+      "state": "draft",
+      "requires_moderator_review": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "risk_id": "R1043",
+    "source_record": {
+      "row_number": 16,
+      "fields": {
+        "Risk ID": "R1043",
+        "Risk Title": "Escalating cross-border insecurity linked to the Sudan conflict increases protection risks and humanitarian needs in eastern Chad",
+        "Risk Type": "Marked deterioration in an existing crisis",
+        "ISO": "TCD",
+        "Country": "Chad",
+        "Rationale": "Since early 2026, the conflict in Sudan has evolved from a humanitarian crisis affecting Chad into a direct security threat to eastern border areas. Repeated drone strikes, cross-border incursions, and clashes involving fighters aligned with the Rapid Support Forces (RSF) and Sudanese Armed Forces (SAF) have already caused casualties on Chadian territory, including around Tine and other border regions. These incidents indicate a growing risk that the Sudan conflict could generate sustained military confrontations, proxy violence, or retaliatory attacks inside Chad. This risk is increasingly characterised by the possibility of sustained military confrontation on Chadian territory involving RSF, SAF-aligned groups, and associated proxy forces operating along the Chad–Sudan border.\n\nThis risk is driven by a convergence of security, economic, and political factors. The Chad–Sudan border has become a strategic corridor for the movement of fuel, arms, gold, and military supplies supporting groups involved in the Sudan conflict. Competition over these routes has transformed border areas into contested spaces where violence increasingly follows smuggling and supply networks. Recent attacks suggest a shift from incidental spillover to deliberate projection of force into Chadian territory.\n\nThe conflict is also aggravating existing vulnerabilities in Chad. Fractures within cross-border Zaghawa community networks, which remain influential within Chad’s security apparatus, have deepened as communities react to violence in Darfur and perceptions of Chad’s involvement in the conflict. Continued violence in Darfur, combined with Chad’s historical role in Sudanese proxy conflicts, increases the risk of elite defections, armed realignments, and renewed cross-border mobilisation. Historical patterns of proxy warfare between Chad and Sudan may also re-emerge, including support to armed groups and militias operating across the border, increasing the likelihood of retaliatory attacks and further regional destabilisation.\n\nOver the next one to three months, further RSF incursions, SAF-backed proxy activity, or competition over border corridors could increase cross-border violence, displacement, protection risks, and humanitarian needs in eastern Chad. Additional attacks or retaliations would likely worsen conditions in provinces already hosting large numbers of refugees and returnees, further straining regional services, humanitarian operations, and community relations. The risk is not limited to humanitarian spillover and increasingly involves the possibility of sustained confrontation on Chadian territory involving RSF, SAF-aligned groups, and associated proxy forces. ([Africa Center for Strategic Studies 09/03/2026](https://africacenter.org/wp-content/uploads/2026/04/Chad-Risks-Instability.pdf), [ACLED 08/04/2026](https://acleddata.com/update/africa-overview-april-2026), [Global Initiative 06/03/2026](https://globalinitiative.net/analysis/how-border-criminal-economies-are-drawing-chad-further-into-sudans-conflict/), [ISS Africa 03/04/2025](https://issafrica.org/iss-today/urgent-au-action-could-defuse-rising-chad-sudan-tensions), [RFI 13/05/2026](https://www.rfi.fr/fr/afrique/20260513-tchad-de-nouvelles-frappes-enregistr%C3%A9es-%C3%A0-la-fronti%C3%A8re-soudanaise-font-craindre-le-pire), [UNHCR 18/05/2026](https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-17-may-2026), [UNFPA 15/05/2026](https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-30-april-2026))",
+        "Source": "https://africacenter.org/wp-content/uploads/2026/04/Chad-Risks-Instability.pdf\nhttps://acleddata.com/update/africa-overview-april-2026\nhttps://globalinitiative.net/analysis/how-border-criminal-economies-are-drawing-chad-further-into-sudans-conflict/\nhttps://issafrica.org/iss-today/urgent-au-action-could-defuse-rising-chad-sudan-tensions\nhttps://www.rfi.fr/fr/afrique/20260513-tchad-de-nouvelles-frappes-enregistr%C3%A9es-%C3%A0-la-fronti%C3%A8re-soudanaise-font-craindre-le-pire\nhttps://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-17-may-2026\nhttps://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-30-april-2026\n",
+        "Intensity of hazard": "4",
+        "Impact": "4",
+        "Probability": "High",
+        "Risk Level": "High",
+        "Risk trend": "Deteriorated",
+        "Status": "Active",
+        "What materialised?": null,
+        "Hazard materialisation": null,
+        "Materialisation sources": null,
+        "Triggers": "Trigger ID: R1043 - T0618\nTitle: Expansion of cross-border attacks and insecurity\nDescription: \n:Additional drone strikes, shelling, or armed incursions near the Chad–Sudan border, particularly around Adré, Tina, and other eastern border localities, increase civilian casualties, trigger further displacement into Chad, and constrain humanitarian operations in already fragile border areas. Continued insecurity may also disrupt cross-border trade and movement routes relied upon by refugees and host communities\nSources: \n([UNFPA 30/04/2026](https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-30-april-2026\\), [RFI 13/05/2026](https://www.rfi.fr/fr/afrique/20260513-tchad-de-nouvelles-frappes-enregistr%C3%A9es-%C3%A0-la-fronti%C3%A8re-soudanaise-font-craindre-le-pire\\), [FEWS NET 22/05/2026](https://reliefweb.int/report/chad/chad-food-security-outlook-update-refugee-impacts-are-driving-income-and-consumption-toward-crisis-ipc-phase-3-april-september-2026\\))\nCompletion rate: 40%\nCompletion rate history: \n02-06-2026: 40%\nQuantitative objective to meet 100%: \nYes. 100% completion would be reached if cross-border attacks become sustained and recurrent, affecting multiple border localities in eastern Chad and causing significant civilian casualties, displacement, or humanitarian access disruptions.\nTrend: \nTrend history: \n\nDate entered: 02-06-2026\nLast update: 08-06-2026\n\n\nTrigger ID: R1043 - T0619\nTitle: Attacks on strategic infrastructure in Chad\nDescription: \n Threats by Sudanese actors against Chadian airports, border facilities, military positions, or transport infrastructure may materialise into direct attacks on strategic assets in eastern Chad. Any strike against airports such as Amdjarass, military installations, or critical transport corridors would increase the risk of direct confrontation between Chad and Sudanese armed actors, disrupt humanitarian and commercial operations, and further destabilise border regions\nSources: \n([ISS Africa 31/03/2026](https://issafrica.org/iss-today/urgent-au-action-could-defuse-rising-chad-sudan-tensions\\), [ACLED 08/04/2026](https://acleddata.com/update/africa-overview-april-2026\\), [Africa Center 09/03/2026](https://africacenter.org/wp-content/uploads/2026/04/Chad-Risks-Instability.pdf\\))\nCompletion rate: 10%\nCompletion rate history: \n02-06-2026: 20%\n02-06-2026: 10%\nQuantitative objective to meet 100%: \nYes. 100% completion would be reached if attacks directly target strategic infrastructure in Chad, including airports, military facilities, border posts, or major transport corridors, causing significant disruption to civilian, humanitarian, or commercial activities.\nTrend: \nTrend history: \n\nDate entered: 02-06-2026\nLast update: 08-06-2026\n\n\nTrigger ID: R1043 - T0620\nTitle: Renewed proxy mobilisation and cross-border armed group activity\nDescription: \nHistorical patterns of proxy warfare between Chad and Sudan may re-emerge through the mobilisation, arming, or support of rebel groups and allied militias operating along the border. Increased involvement of SAF-aligned groups, RSF-linked actors, Darfuri armed factions, or Chadian rebel networks could expand the conflict beyond isolated border incidents and increase the likelihood of retaliatory attacks on Chadian territory. \nSources: \n([ISS Africa 31/03/2026](https://issafrica.org/iss-today/urgent-au-action-could-defuse-rising-chad-sudan-tensions\\), [Africa Center 09/03/2026](https://africacenter.org/wp-content/uploads/2026/04/Chad-Risks-Instability.pdf\\), [Global Initiative 06/03/2026](https://globalinitiative.net/analysis/how-border-criminal-economies-are-drawing-chad-further-into-sudans-conflict/\\))\nCompletion rate: 20%\nCompletion rate history: \n02-06-2026: 20%\nQuantitative objective to meet 100%: \nYes. 100% completion would be reached if armed groups, militias, or proxy actors operating across the Chad–Sudan border become actively involved in cross-border hostilities, resulting in sustained violence, retaliatory attacks, or territorial insecurity in eastern Chad.\nTrend: \nTrend history: \n\nDate entered: 02-06-2026\nLast update: 08-06-2026",
+        "Current vulnerability / Coping capacities": "Before the Sudan conflict escalated, eastern Chad already faced high levels of poverty, food insecurity, weak infrastructure, and limited access to basic services. Refugee-hosting regions such as Ennedi Est, Ouaddai, Sila, and Wadi Fira have experienced sustained humanitarian pressure since 2023, with repeated refugee arrivals straining regional coping capacities, public services, and natural resources. Host communities in these areas also face chronic vulnerabilities linked to limited livelihood opportunities, climate shocks, water scarcity, and underdeveloped healthcare and education systems.\n\nInsecurity, logistical challenges, and major funding gaps continue to constrain humanitarian response capacity. Several refugee-hosting areas depend heavily on humanitarian assistance, while overcrowded sites continue to face inadequate access to shelter, water, sanitation, healthcare, and protection services. Limited funding has already reduced food assistance and cash support in some locations, increasing reliance on potentially harmful coping mechanisms among refugees and host communities.\n\nProtection risks are particularly high for women, children, and displaced populations. Overcrowding, limited lighting, long distances to water points, and weak service coverage increase exposure to gender-based violence, exploitation, and child protection risks. Repeated displacement and prolonged humanitarian needs have also reduced household resilience and increased tensions over access to resources and assistance in eastern Chad. ([UNHCR 18/05/2026](https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-17-may-2026), [UNFPA 15/05/2026](https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-30-april-2026), [FEWS NET 21/05/2026](https://reliefweb.int/report/chad/chad-food-security-outlook-update-refugee-impacts-are-driving-income-and-consumption-toward-crisis-ipc-phase-3-april-september-2026), [RFI 19/04/2026](https://www.rfi.fr/fr/podcasts/reportage-afrique/20260418-guerre-au-soudan-pour-les-r%C3%A9fugi%C3%A9s-au-tchad-l-espoir-de-migrer-en-europe))",
+        "Current vulnerability / Coping capacities sources": "([UNHCR 18/05/2026](https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-17-may-2026\\), [UNFPA 30/04/2026](https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-30-april-2026\\), [FEWS NET 22/05/2026](https://reliefweb.int/report/chad/chad-food-security-outlook-update-refugee-impacts-are-driving-income-and-consumption-toward-crisis-ipc-phase-3-april-september-2026\\), [RFI 19/05/2026](https://www.rfi.fr/fr/podcasts/reportage-afrique/20260418-guerre-au-soudan-pour-les-r%C3%A9fugi%C3%A9s-au-tchad-l-espoir-de-migrer-en-europe\\))",
+        "Expected exposure": ">500,000",
+        "Expected impact": "Further escalation of cross-border violence linked to the Sudan conflict could expose eastern Chad to new levels of civilian casualties, trauma, and insecurity. Additional drone strikes, shelling, armed incursions, or proxy attacks in border areas such as Adré, Tine, and the surrounding areas may directly affect civilians, trigger new displacement, and increase protection risks in communities already hosting large numbers of refugees and returnees. Repeated exposure to violence and insecurity is also likely to increase psychological distress and trauma among affected populations.\n\nEscalating military activity could damage or disrupt critical infrastructure, including transport routes, border facilities, health centres, markets, telecommunications infrastructure, and humanitarian supply corridors. Further insecurity along the Chad–Sudan border may reduce civilian mobility, restrict trade, and hinder humanitarian operations. If border crossings tighten or close, people fleeing violence in Darfur will find it more difficult to reach safety, and the delivery of humanitarian assistance and essential goods into eastern Chad will be limited.\n\nDeteriorating security conditions may also increase public health risks. Displacement, overcrowding, disrupted health services, and reduced humanitarian access could contribute to disease outbreaks and weaken regional health systems’ response capacity. If violence expands or becomes sustained, humanitarian needs are likely to increase significantly across eastern Chad, particularly in border areas already facing limited service availability and weak coping capacities. ([UNHCR 18/05/2026](https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-17-may-2026), [UNFPA 15/05/2026](https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-30-april-2026), [FEWS NET 21/05/2026](https://reliefweb.int/report/chad/chad-food-security-outlook-update-refugee-impacts-are-driving-income-and-consumption-toward-crisis-ipc-phase-3-april-september-2026), [RFI 13/05/2026](https://www.rfi.fr/fr/afrique/20260513-tchad-de-nouvelles-frappes-enregistr%C3%A9es-%C3%A0-la-fronti%C3%A8re-soudanaise-font-craindre-le-pire), [RFI 28/04/2026](https://www.rfi.fr/fr/afrique/20260428-tchad-les-affrontements-intercommunautaires-se-poursuivent-dans-l-est-du-pays))",
+        "Expected impact sources": "([UNHCR 18/05/2026](https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-17-may-2026\\), [UNFPA 30/04/2026](https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-30-april-2026\\), [FEWS NET 30/04/2026](https://reliefweb.int/report/chad/chad-food-security-outlook-update-refugee-impacts-are-driving-income-and-consumption-toward-crisis-ipc-phase-3-april-september-2026\\), [RFI 13/05/2026](https://www.rfi.fr/fr/afrique/20260513-tchad-de-nouvelles-frappes-enregistr%C3%A9es-%C3%A0-la-fronti%C3%A8re-soudanaise-font-craindre-le-pire\\), [RFI 28/04/2026](https://www.rfi.fr/fr/afrique/20260428-tchad-les-affrontements-intercommunautaires-se-poursuivent-dans-l-est-du-pays\\))",
+        "Expected priority needs": "Protection, Food security, Livelihoods, Health",
+        "Impact materialisation description": null,
+        "Rationale update": "UPDATE 30/09/2026\nThe risk remains active, although no significant new cross-border attacks inside Chad were identified during the second half of September. Humanitarian pressure linked to the Sudan conflict has nevertheless increased sharply as fighting in Darfur and other parts of Sudan drives renewed displacement across the border. By 25 September, more than 400 Sudanese refugees were crossing into Chad each day, around 20 times the rate recorded in previous months, bringing arrivals since the beginning of 2026 to more than 55,000. The acceleration in arrivals is increasing pressure on already overstretched reception areas and services in eastern Chad, while funding constraints affect humanitarian organisations' capacity to provide shelter, food, and relocation assistance. Continued conflict in neighbouring Sudan therefore maintains the risk of further refugee arrivals and humanitarian deterioration in eastern Chad, while the potential for renewed cross-border security incidents remains, given the heightened military presence and tensions established along the border following the August strikes. ([UNHCR 25/09/2026](https://www.unhcr.org/news/briefing-notes/unhcr-its-fourth-year-sudan-conflict-drives-new-displacement-chad-funding-falls), [Reuters 25/09/2026](https://www.reuters.com/world/africa/number-sudanese-fleeing-chad-surges-20-fold-aid-runs-dry-un-says-2026-09-25/))\n\nUPDATE 13/09/2026\nThe risk deteriorated in August 2026 as cross-border violence increasingly affected Chadian territory and prompted stronger security measures. On 21 August, Chad accused Sudanese Armed Forces aircraft and drones of striking a convoy more than 100km inside Ennedi-Est province, prompting authorities to raise the regional alert level to its highest and deploy additional forces. On 28 August, an air strike near the border killed at least 12 people at a fuel market, further increasing civilian protection risks and concerns over escalation. ([Reuters 27/08/2026](https://www.reuters.com/world/africa/chad-accuses-sudan-cross-border-strike-raises-alert-level-2026-08-27/), [AJ 28/08/2026](https://www.aljazeera.com/news/2026/8/28/chad-accuses-sudan-of-deadly-air-strike-near-shared-border)). \n\n\nUPDATE 05/08/2026\nThe risk remains active after slightly deteriorating in July. Cross-border insecurity continues along eastern Chad, with new drone attacks reported on 21 July near Tiné amid intensified hostilities in Darfur. One strike in Indour hit a water point, causing livestock losses and possible human casualties, while another damaged an administrative vehicle in Bamina. Between 17 June and 17 July, 23 security incidents were recorded, killing 23 people, nearly half concentrated in Ouaddai and Wadi Fira. Chadian authorities have continued disarmament operations and movement controls in Sila, reflecting persistent concerns over cross-border armed activity. Humanitarian pressures have also increased. Despite the official border closure, 4,126 new refugees arrived in July, while protection conditions during displacement worsened. The proportion of households reporting at least one human rights violation during flight increased from 53% in June to 58% in July, with reported physical violence rising from 22% to 29%. More than 220,000 refugees remain stranded in insecure border areas awaiting relocation, increasing their exposure to insecurity and limited access to services. Over the coming months, further drone strikes, cross-border violence, or proxy mobilisation could further restrict safe movement across eastern Chad and increase protection risks for refugees, returnees, and host communities. The continued backlog of relocations, rainy season access constraints, and the potential suspension of WFP food assistance from September would likely amplify the humanitarian consequences of any further deterioration in border security. ([UNHCR 30/07/2026](https://reliefweb.int/report/chad/flash-updates-55-nouvel-afflux-de-refugies-soudanais-au-tchad), [UNHCR 02/08/2026](https://reliefweb.int/report/chad/projet-21-tchad-urgence-soudanaise-monitoring-aux-frontieres-tendances-cles-juillet-2026), [WFP 27/07/2026](https://reliefweb.int/report/chad/wfp-chad-country-brief-july-2026), [FEWS NET 04/08/2026](https://reliefweb.int/report/chad/tchad-mise-jour-des-messages-cles-retard-dinstallation-de-la-saison-dans-les-provinces-de-lest-deja-en-crise-phase-3-de-lipc-juillet-2026-janvier-2027), [ICG 23/07/2026](https://www.crisisgroup.org/vid/africa/chad/sudans-war-risks-fracturing-eastern-chad)). \n\n\n\nUPDATE 26/06/2026\nThe risk remains active and has slightly deteriorated. Recent reporting indicates that border insecurity continues to affect eastern Chad, with refugee arrivals from Sudan slowing in May likely because of insecurity around crossing points, including a 26 May drone strike in Al-Tina. This supports the risk logic that violence linked to the Sudan conflict is increasingly affecting Chadian border areas and limiting safe mobility rather than only generating humanitarian spillover. The humanitarian exposure remains high. As of 21 June, 932,771 Sudanese refugees had arrived in Chad since April 2023, while 400,914 Chadian returnees were also recorded. Most new arrivals remain concentrated in Ouaddaï, Wadi Fira, Sila, and Ennedi Est, including 234,499 in Wadi Fira and 509,637 in Ouaddaï. UNHCR also reports that 87% of registered people are women and children and 13% have specific needs.\nProtection risks are also increasing. Border monitoring between 1–15 June found that 63% of interviewed households fled Sudan because of insecurity, 42% reported human rights violations during flight, and 49% had family members still blocked in Sudan, mainly because of lack of transport means. In Wadi Fira, continued Zaghawa–Tama tensions and clashes have restricted movement and access to essential SRH and GBV services. UNFPA also reports a 90% funding gap, severely limiting life-saving SRH and protection services.\nOver the next one to three months, further drone strikes, cross-border violence, or proxy mobilisation could further restrict movement across the Chad–Sudan border, increase protection risks, and strain humanitarian operations in eastern Chad. The acceleration of refugee relocations from unstable border areas to safer inland sites shows that insecurity remains a direct operational concern. If insecurity persists, humanitarian actors may face greater access constraints while refugees, returnees, and host communities face worsening protection, health, and service-access risks.\n([UNFPA 16/06/2026](https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-31-may-2026), [UNHCR 15/06/2026](https://reliefweb.int/report/chad/hcr-tchad-rapport-operationnel-hebdomadaire-du-15-avril-2026), [UNHCR 21/06/2026](https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-21-june-2026), [UNHCR 17/06/2026](https://reliefweb.int/report/chad/p21-tchad-urgence-soudanaise-situation-de-protection-des-nouveaux-arrivants-01-15-juin-2026-fr)). "
+      }
+    },
+    "acaps_assessment": {
+      "title": {
+        "raw": "Escalating cross-border insecurity linked to the Sudan conflict increases protection risks and humanitarian needs in eastern Chad",
+        "normalized": "Escalating cross-border insecurity linked to the Sudan conflict increases protection risks and humanitarian needs in eastern Chad"
+      },
+      "risk_type": {
+        "raw": "Marked deterioration in an existing crisis",
+        "normalized": "Marked deterioration in an existing crisis"
+      },
+      "risk_level": {
+        "raw": "High",
+        "normalized": "High"
+      },
+      "probability": {
+        "raw": "High",
+        "normalized": "High"
+      },
+      "impact": {
+        "raw": "4",
+        "normalized": 4
+      },
+      "hazard_intensity": {
+        "raw": "4",
+        "normalized": 4
+      },
+      "risk_trend": {
+        "raw": "Deteriorated",
+        "normalized": "Deteriorated"
+      },
+      "status": {
+        "raw": "Active",
+        "normalized": "Active"
+      },
+      "exposure_category": {
+        "raw": ">500,000",
+        "normalized": ">500,000"
+      },
+      "countries": {
+        "raw": "Chad",
+        "normalized": [
+          "Chad"
+        ]
+      },
+      "iso_codes": {
+        "raw": "TCD",
+        "normalized": [
+          "TCD"
+        ]
+      },
+      "priority_needs": {
+        "raw": "Protection, Food security, Livelihoods, Health",
+        "normalized": [
+          "Protection",
+          "Food security",
+          "Livelihoods",
+          "Health"
+        ]
+      }
+    },
+    "ai_content": {
+      "label": "AI-generated draft",
+      "short_title": "Sudan conflict spillover threatens civilians and humanitarian access in eastern Chad",
+      "summary": "The assessment warns that Sudan-linked attacks and proxy activity could escalate in eastern Chad, harming refugees, returnees, and host communities and disrupting services and aid. It reports earlier cross-border attacks. Separately, the 30 September 2026 update reports increased refugee arrivals and service pressure, while identifying no significant new cross-border attacks in the second half of September. Further security escalation remains a possibility in that update.",
+      "key_assessment_points": [
+        {
+          "point_id": "R1043-assessment-8c6adddc58c7",
+          "text": "Competition over border corridors and armed mobilisation could sustain cross-border confrontation.",
+          "origin": "agent_ai",
+          "support": {
+            "risk_id": "R1043",
+            "source_column": "Rationale",
+            "excerpt": "Since early 2026, the conflict in Sudan has evolved from a humanitarian crisis affecting Chad into a direct security threat to eastern border areas. Repeated drone strikes, cross-border incursions, and clashes involving fighters aligned with the Rapid Support Forces (RSF) and Sudanese Armed Forces (SAF) have already caused casualties on Chadian territory, including around Tine and other border regions. These incidents indicate a growing risk that the Sudan conflict could generate sustained military confrontations, proxy violence, or retaliatory attacks inside Chad. This risk is increasingly characterised by the possibility of sustained military confrontation on Chadian territory involving RSF, SAF-aligned groups, and associated proxy forces operating along the Chad–Sudan border.\n\nThis risk is driven by a convergence of security, economic, and political factors. The Chad–Sudan border has become a strategic corridor for the movement of fuel, arms, gold, and military supplies supporting groups involved in the Sudan conflict. Competition over these routes has transformed border areas into contested spaces where violence increasingly follows smuggling and supply networks. Recent attacks suggest a shift from incidental spillover to deliberate projection of force into Chadian territory.\n\nThe conflict is also aggravating existing vulnerabilities in Chad. Fractures within cross-border Zaghawa community networks, which remain influential within Chad’s security apparatus, have deepened as communities react to violence in Darfur and perceptions of Chad’s involvement in the conflict. Continued violence in Darfur, combined with Chad’s historical role in Sudanese proxy conflicts, increases the risk of elite defections, armed realignments, and renewed cross-border mobilisation. Historical patterns of proxy warfare between Chad and Sudan may also re-emerge, including support to armed groups and militias operating across the border, increasing the likelihood of retaliatory attacks and further regional destabilisation.\n\nOver the next one to three months, further RSF incursions, SAF-backed proxy activity, or competition over border corridors could increase cross-border violence, displacement, protection risks, and humanitarian needs in eastern Chad. Additional attacks or retaliations would likely worsen conditions in provinces already hosting large numbers of refugees and returnees, further straining regional services, humanitarian operations, and community relations. The risk is not limited to humanitarian spillover and increasingly involves the possibility of sustained confrontation on Chadian territory involving RSF, SAF-aligned groups, and associated proxy forces. ([Africa Center for Strategic Studies 09/03/2026](https://africacenter.org/wp-content/uploads/2026/04/Chad-Risks-Instability.pdf), [ACLED 08/04/2026](https://acleddata.com/update/africa-overview-april-2026), [Global Initiative 06/03/2026](https://globalinitiative.net/analysis/how-border-criminal-economies-are-drawing-chad-further-into-sudans-conflict/), [ISS Africa 03/04/2025](https://issafrica.org/iss-today/urgent-au-action-could-defuse-rising-chad-sudan-tensions), [RFI 13/05/2026](https://www.rfi.fr/fr/afrique/20260513-tchad-de-nouvelles-frappes-enregistr%C3%A9es-%C3%A0-la-fronti%C3%A8re-soudanaise-font-craindre-le-pire), [UNHCR 18/05/2026](https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-17-may-2026), [UNFPA 15/05/2026](https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-30-april-2026))",
+            "source_urls": [],
+            "url_association": "uncertain",
+            "excerpt_scope": "source_field"
+          }
+        }
+      ],
+      "expected_humanitarian_impacts": [
+        {
+          "point_id": "R1043-impact-bc93a6ba9e10",
+          "text": "Further violence could cause casualties, displacement, trauma, infrastructure disruption, and reduced humanitarian access.",
+          "origin": "agent_ai",
+          "support": {
+            "risk_id": "R1043",
+            "source_column": "Expected impact",
+            "excerpt": "Further escalation of cross-border violence linked to the Sudan conflict could expose eastern Chad to new levels of civilian casualties, trauma, and insecurity. Additional drone strikes, shelling, armed incursions, or proxy attacks in border areas such as Adré, Tine, and the surrounding areas may directly affect civilians, trigger new displacement, and increase protection risks in communities already hosting large numbers of refugees and returnees. Repeated exposure to violence and insecurity is also likely to increase psychological distress and trauma among affected populations.\n\nEscalating military activity could damage or disrupt critical infrastructure, including transport routes, border facilities, health centres, markets, telecommunications infrastructure, and humanitarian supply corridors. Further insecurity along the Chad–Sudan border may reduce civilian mobility, restrict trade, and hinder humanitarian operations. If border crossings tighten or close, people fleeing violence in Darfur will find it more difficult to reach safety, and the delivery of humanitarian assistance and essential goods into eastern Chad will be limited.\n\nDeteriorating security conditions may also increase public health risks. Displacement, overcrowding, disrupted health services, and reduced humanitarian access could contribute to disease outbreaks and weaken regional health systems’ response capacity. If violence expands or becomes sustained, humanitarian needs are likely to increase significantly across eastern Chad, particularly in border areas already facing limited service availability and weak coping capacities. ([UNHCR 18/05/2026](https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-17-may-2026), [UNFPA 15/05/2026](https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-30-april-2026), [FEWS NET 21/05/2026](https://reliefweb.int/report/chad/chad-food-security-outlook-update-refugee-impacts-are-driving-income-and-consumption-toward-crisis-ipc-phase-3-april-september-2026), [RFI 13/05/2026](https://www.rfi.fr/fr/afrique/20260513-tchad-de-nouvelles-frappes-enregistr%C3%A9es-%C3%A0-la-fronti%C3%A8re-soudanaise-font-craindre-le-pire), [RFI 28/04/2026](https://www.rfi.fr/fr/afrique/20260428-tchad-les-affrontements-intercommunautaires-se-poursuivent-dans-l-est-du-pays))",
+            "source_urls": [],
+            "url_association": "uncertain",
+            "excerpt_scope": "source_field"
+          }
+        }
+      ],
+      "vulnerabilities": [
+        {
+          "point_id": "R1043-vulnerability-879e1bdd3117",
+          "text": "Poverty, weak services, funding gaps, overcrowding, and prolonged displacement reduce resilience.",
+          "origin": "agent_ai",
+          "support": {
+            "risk_id": "R1043",
+            "source_column": "Current vulnerability / Coping capacities",
+            "excerpt": "Before the Sudan conflict escalated, eastern Chad already faced high levels of poverty, food insecurity, weak infrastructure, and limited access to basic services. Refugee-hosting regions such as Ennedi Est, Ouaddai, Sila, and Wadi Fira have experienced sustained humanitarian pressure since 2023, with repeated refugee arrivals straining regional coping capacities, public services, and natural resources. Host communities in these areas also face chronic vulnerabilities linked to limited livelihood opportunities, climate shocks, water scarcity, and underdeveloped healthcare and education systems.\n\nInsecurity, logistical challenges, and major funding gaps continue to constrain humanitarian response capacity. Several refugee-hosting areas depend heavily on humanitarian assistance, while overcrowded sites continue to face inadequate access to shelter, water, sanitation, healthcare, and protection services. Limited funding has already reduced food assistance and cash support in some locations, increasing reliance on potentially harmful coping mechanisms among refugees and host communities.\n\nProtection risks are particularly high for women, children, and displaced populations. Overcrowding, limited lighting, long distances to water points, and weak service coverage increase exposure to gender-based violence, exploitation, and child protection risks. Repeated displacement and prolonged humanitarian needs have also reduced household resilience and increased tensions over access to resources and assistance in eastern Chad. ([UNHCR 18/05/2026](https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-17-may-2026), [UNFPA 15/05/2026](https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-30-april-2026), [FEWS NET 21/05/2026](https://reliefweb.int/report/chad/chad-food-security-outlook-update-refugee-impacts-are-driving-income-and-consumption-toward-crisis-ipc-phase-3-april-september-2026), [RFI 19/04/2026](https://www.rfi.fr/fr/podcasts/reportage-afrique/20260418-guerre-au-soudan-pour-les-r%C3%A9fugi%C3%A9s-au-tchad-l-espoir-de-migrer-en-europe))",
+            "source_urls": [],
+            "url_association": "uncertain",
+            "excerpt_scope": "source_field"
+          }
+        }
+      ],
+      "coping_capacities": [],
+      "suggested_expert_review_questions": [
+        {
+          "question_id": "R1043-question-5e3afb12cd42",
+          "text": "Does local evidence distinguish refugee-arrival pressures from renewed attacks inside Chad?",
+          "origin": "agent_ai",
+          "label": "AI-generated suggestion"
+        },
+        {
+          "question_id": "R1043-question-03aba29d4ec4",
+          "text": "Which border localities or infrastructure would demonstrate sustained rather than isolated cross-border escalation?",
+          "origin": "agent_ai",
+          "label": "AI-generated suggestion"
+        }
+      ]
+    },
+    "triggers": [
+      {
+        "trigger_id": "R1043 - T0618",
+        "point_id": "R1043-trigger-a31cad582043",
+        "title": "Expansion of cross-border attacks and insecurity",
+        "description": ":Additional drone strikes, shelling, or armed incursions near the Chad–Sudan border, particularly around Adré, Tina, and other eastern border localities, increase civilian casualties, trigger further displacement into Chad, and constrain humanitarian operations in already fragile border areas. Continued insecurity may also disrupt cross-border trade and movement routes relied upon by refugees and host communities",
+        "origin": "deterministic_source_parse",
+        "completion_rate_percent": 40,
+        "completion_rate_raw": "40%",
+        "completion_criterion": "Yes. 100% completion would be reached if cross-border attacks become sustained and recurrent, affecting multiple border localities in eastern Chad and causing significant civilian casualties, displacement, or humanitarian access disruptions.",
+        "dates": {
+          "Date entered": {
+            "raw": "02-06-2026",
+            "normalized": null,
+            "certainty": "ambiguous_day_month"
+          },
+          "Last update": {
+            "raw": "08-06-2026",
+            "normalized": null,
+            "certainty": "ambiguous_day_month"
+          }
+        },
+        "source_urls": [
+          "https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-30-april-2026",
+          "https://www.rfi.fr/fr/afrique/20260513-tchad-de-nouvelles-frappes-enregistr%C3%A9es-%C3%A0-la-fronti%C3%A8re-soudanaise-font-craindre-le-pire",
+          "https://reliefweb.int/report/chad/chad-food-security-outlook-update-refugee-impacts-are-driving-income-and-consumption-toward-crisis-ipc-phase-3-april-september-2026"
+        ],
+        "completion_history": [
+          {
+            "date": {
+              "raw": "02-06-2026",
+              "normalized": null,
+              "certainty": "ambiguous_day_month"
+            },
+            "completion_rate_percent": 40.0,
+            "raw": "02-06-2026: 40%"
+          }
+        ],
+        "raw_fields": {
+          "Trigger ID": "R1043 - T0618",
+          "Title": "Expansion of cross-border attacks and insecurity",
+          "Description": ":Additional drone strikes, shelling, or armed incursions near the Chad–Sudan border, particularly around Adré, Tina, and other eastern border localities, increase civilian casualties, trigger further displacement into Chad, and constrain humanitarian operations in already fragile border areas. Continued insecurity may also disrupt cross-border trade and movement routes relied upon by refugees and host communities",
+          "Sources": "([UNFPA 30/04/2026](https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-30-april-2026\\), [RFI 13/05/2026](https://www.rfi.fr/fr/afrique/20260513-tchad-de-nouvelles-frappes-enregistr%C3%A9es-%C3%A0-la-fronti%C3%A8re-soudanaise-font-craindre-le-pire\\), [FEWS NET 22/05/2026](https://reliefweb.int/report/chad/chad-food-security-outlook-update-refugee-impacts-are-driving-income-and-consumption-toward-crisis-ipc-phase-3-april-september-2026\\))",
+          "Completion rate": "40%",
+          "Completion rate history": "02-06-2026: 40%",
+          "Quantitative objective to meet 100%": "Yes. 100% completion would be reached if cross-border attacks become sustained and recurrent, affecting multiple border localities in eastern Chad and causing significant civilian casualties, displacement, or humanitarian access disruptions.",
+          "Trend": null,
+          "Trend history": null,
+          "Date entered": "02-06-2026",
+          "Last update": "08-06-2026"
+        },
+        "support": {
+          "risk_id": "R1043",
+          "source_column": "Triggers",
+          "excerpt": "Trigger ID: R1043 - T0618\nTitle: Expansion of cross-border attacks and insecurity\nDescription: \n:Additional drone strikes, shelling, or armed incursions near the Chad–Sudan border, particularly around Adré, Tina, and other eastern border localities, increase civilian casualties, trigger further displacement into Chad, and constrain humanitarian operations in already fragile border areas. Continued insecurity may also disrupt cross-border trade and movement routes relied upon by refugees and host communities\nSources: \n([UNFPA 30/04/2026](https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-30-april-2026\\), [RFI 13/05/2026](https://www.rfi.fr/fr/afrique/20260513-tchad-de-nouvelles-frappes-enregistr%C3%A9es-%C3%A0-la-fronti%C3%A8re-soudanaise-font-craindre-le-pire\\), [FEWS NET 22/05/2026](https://reliefweb.int/report/chad/chad-food-security-outlook-update-refugee-impacts-are-driving-income-and-consumption-toward-crisis-ipc-phase-3-april-september-2026\\))\nCompletion rate: 40%\nCompletion rate history: \n02-06-2026: 40%\nQuantitative objective to meet 100%: \nYes. 100% completion would be reached if cross-border attacks become sustained and recurrent, affecting multiple border localities in eastern Chad and causing significant civilian casualties, displacement, or humanitarian access disruptions.\nTrend: \nTrend history: \n\nDate entered: 02-06-2026\nLast update: 08-06-2026\n\n\n",
+          "source_urls": [],
+          "url_association": "uncertain",
+          "excerpt_scope": "source_segment"
+        }
+      },
+      {
+        "trigger_id": "R1043 - T0619",
+        "point_id": "R1043-trigger-9e0c01cad97a",
+        "title": "Attacks on strategic infrastructure in Chad",
+        "description": "Threats by Sudanese actors against Chadian airports, border facilities, military positions, or transport infrastructure may materialise into direct attacks on strategic assets in eastern Chad. Any strike against airports such as Amdjarass, military installations, or critical transport corridors would increase the risk of direct confrontation between Chad and Sudanese armed actors, disrupt humanitarian and commercial operations, and further destabilise border regions",
+        "origin": "deterministic_source_parse",
+        "completion_rate_percent": 10,
+        "completion_rate_raw": "10%",
+        "completion_criterion": "Yes. 100% completion would be reached if attacks directly target strategic infrastructure in Chad, including airports, military facilities, border posts, or major transport corridors, causing significant disruption to civilian, humanitarian, or commercial activities.",
+        "dates": {
+          "Date entered": {
+            "raw": "02-06-2026",
+            "normalized": null,
+            "certainty": "ambiguous_day_month"
+          },
+          "Last update": {
+            "raw": "08-06-2026",
+            "normalized": null,
+            "certainty": "ambiguous_day_month"
+          }
+        },
+        "source_urls": [
+          "https://issafrica.org/iss-today/urgent-au-action-could-defuse-rising-chad-sudan-tensions",
+          "https://acleddata.com/update/africa-overview-april-2026",
+          "https://africacenter.org/wp-content/uploads/2026/04/Chad-Risks-Instability.pdf"
+        ],
+        "completion_history": [
+          {
+            "date": {
+              "raw": "02-06-2026",
+              "normalized": null,
+              "certainty": "ambiguous_day_month"
+            },
+            "completion_rate_percent": 20.0,
+            "raw": "02-06-2026: 20%"
+          },
+          {
+            "date": {
+              "raw": "02-06-2026",
+              "normalized": null,
+              "certainty": "ambiguous_day_month"
+            },
+            "completion_rate_percent": 10.0,
+            "raw": "02-06-2026: 10%"
+          }
+        ],
+        "raw_fields": {
+          "Trigger ID": "R1043 - T0619",
+          "Title": "Attacks on strategic infrastructure in Chad",
+          "Description": "Threats by Sudanese actors against Chadian airports, border facilities, military positions, or transport infrastructure may materialise into direct attacks on strategic assets in eastern Chad. Any strike against airports such as Amdjarass, military installations, or critical transport corridors would increase the risk of direct confrontation between Chad and Sudanese armed actors, disrupt humanitarian and commercial operations, and further destabilise border regions",
+          "Sources": "([ISS Africa 31/03/2026](https://issafrica.org/iss-today/urgent-au-action-could-defuse-rising-chad-sudan-tensions\\), [ACLED 08/04/2026](https://acleddata.com/update/africa-overview-april-2026\\), [Africa Center 09/03/2026](https://africacenter.org/wp-content/uploads/2026/04/Chad-Risks-Instability.pdf\\))",
+          "Completion rate": "10%",
+          "Completion rate history": "02-06-2026: 20%\n02-06-2026: 10%",
+          "Quantitative objective to meet 100%": "Yes. 100% completion would be reached if attacks directly target strategic infrastructure in Chad, including airports, military facilities, border posts, or major transport corridors, causing significant disruption to civilian, humanitarian, or commercial activities.",
+          "Trend": null,
+          "Trend history": null,
+          "Date entered": "02-06-2026",
+          "Last update": "08-06-2026"
+        },
+        "support": {
+          "risk_id": "R1043",
+          "source_column": "Triggers",
+          "excerpt": "Trigger ID: R1043 - T0619\nTitle: Attacks on strategic infrastructure in Chad\nDescription: \n Threats by Sudanese actors against Chadian airports, border facilities, military positions, or transport infrastructure may materialise into direct attacks on strategic assets in eastern Chad. Any strike against airports such as Amdjarass, military installations, or critical transport corridors would increase the risk of direct confrontation between Chad and Sudanese armed actors, disrupt humanitarian and commercial operations, and further destabilise border regions\nSources: \n([ISS Africa 31/03/2026](https://issafrica.org/iss-today/urgent-au-action-could-defuse-rising-chad-sudan-tensions\\), [ACLED 08/04/2026](https://acleddata.com/update/africa-overview-april-2026\\), [Africa Center 09/03/2026](https://africacenter.org/wp-content/uploads/2026/04/Chad-Risks-Instability.pdf\\))\nCompletion rate: 10%\nCompletion rate history: \n02-06-2026: 20%\n02-06-2026: 10%\nQuantitative objective to meet 100%: \nYes. 100% completion would be reached if attacks directly target strategic infrastructure in Chad, including airports, military facilities, border posts, or major transport corridors, causing significant disruption to civilian, humanitarian, or commercial activities.\nTrend: \nTrend history: \n\nDate entered: 02-06-2026\nLast update: 08-06-2026\n\n\n",
+          "source_urls": [],
+          "url_association": "uncertain",
+          "excerpt_scope": "source_segment"
+        }
+      },
+      {
+        "trigger_id": "R1043 - T0620",
+        "point_id": "R1043-trigger-20bebb559b06",
+        "title": "Renewed proxy mobilisation and cross-border armed group activity",
+        "description": "Historical patterns of proxy warfare between Chad and Sudan may re-emerge through the mobilisation, arming, or support of rebel groups and allied militias operating along the border. Increased involvement of SAF-aligned groups, RSF-linked actors, Darfuri armed factions, or Chadian rebel networks could expand the conflict beyond isolated border incidents and increase the likelihood of retaliatory attacks on Chadian territory.",
+        "origin": "deterministic_source_parse",
+        "completion_rate_percent": 20,
+        "completion_rate_raw": "20%",
+        "completion_criterion": "Yes. 100% completion would be reached if armed groups, militias, or proxy actors operating across the Chad–Sudan border become actively involved in cross-border hostilities, resulting in sustained violence, retaliatory attacks, or territorial insecurity in eastern Chad.",
+        "dates": {
+          "Date entered": {
+            "raw": "02-06-2026",
+            "normalized": null,
+            "certainty": "ambiguous_day_month"
+          },
+          "Last update": {
+            "raw": "08-06-2026",
+            "normalized": null,
+            "certainty": "ambiguous_day_month"
+          }
+        },
+        "source_urls": [
+          "https://issafrica.org/iss-today/urgent-au-action-could-defuse-rising-chad-sudan-tensions",
+          "https://africacenter.org/wp-content/uploads/2026/04/Chad-Risks-Instability.pdf",
+          "https://globalinitiative.net/analysis/how-border-criminal-economies-are-drawing-chad-further-into-sudans-conflict/"
+        ],
+        "completion_history": [
+          {
+            "date": {
+              "raw": "02-06-2026",
+              "normalized": null,
+              "certainty": "ambiguous_day_month"
+            },
+            "completion_rate_percent": 20.0,
+            "raw": "02-06-2026: 20%"
+          }
+        ],
+        "raw_fields": {
+          "Trigger ID": "R1043 - T0620",
+          "Title": "Renewed proxy mobilisation and cross-border armed group activity",
+          "Description": "Historical patterns of proxy warfare between Chad and Sudan may re-emerge through the mobilisation, arming, or support of rebel groups and allied militias operating along the border. Increased involvement of SAF-aligned groups, RSF-linked actors, Darfuri armed factions, or Chadian rebel networks could expand the conflict beyond isolated border incidents and increase the likelihood of retaliatory attacks on Chadian territory.",
+          "Sources": "([ISS Africa 31/03/2026](https://issafrica.org/iss-today/urgent-au-action-could-defuse-rising-chad-sudan-tensions\\), [Africa Center 09/03/2026](https://africacenter.org/wp-content/uploads/2026/04/Chad-Risks-Instability.pdf\\), [Global Initiative 06/03/2026](https://globalinitiative.net/analysis/how-border-criminal-economies-are-drawing-chad-further-into-sudans-conflict/\\))",
+          "Completion rate": "20%",
+          "Completion rate history": "02-06-2026: 20%",
+          "Quantitative objective to meet 100%": "Yes. 100% completion would be reached if armed groups, militias, or proxy actors operating across the Chad–Sudan border become actively involved in cross-border hostilities, resulting in sustained violence, retaliatory attacks, or territorial insecurity in eastern Chad.",
+          "Trend": null,
+          "Trend history": null,
+          "Date entered": "02-06-2026",
+          "Last update": "08-06-2026"
+        },
+        "support": {
+          "risk_id": "R1043",
+          "source_column": "Triggers",
+          "excerpt": "Trigger ID: R1043 - T0620\nTitle: Renewed proxy mobilisation and cross-border armed group activity\nDescription: \nHistorical patterns of proxy warfare between Chad and Sudan may re-emerge through the mobilisation, arming, or support of rebel groups and allied militias operating along the border. Increased involvement of SAF-aligned groups, RSF-linked actors, Darfuri armed factions, or Chadian rebel networks could expand the conflict beyond isolated border incidents and increase the likelihood of retaliatory attacks on Chadian territory. \nSources: \n([ISS Africa 31/03/2026](https://issafrica.org/iss-today/urgent-au-action-could-defuse-rising-chad-sudan-tensions\\), [Africa Center 09/03/2026](https://africacenter.org/wp-content/uploads/2026/04/Chad-Risks-Instability.pdf\\), [Global Initiative 06/03/2026](https://globalinitiative.net/analysis/how-border-criminal-economies-are-drawing-chad-further-into-sudans-conflict/\\))\nCompletion rate: 20%\nCompletion rate history: \n02-06-2026: 20%\nQuantitative objective to meet 100%: \nYes. 100% completion would be reached if armed groups, militias, or proxy actors operating across the Chad–Sudan border become actively involved in cross-border hostilities, resulting in sustained violence, retaliatory attacks, or territorial insecurity in eastern Chad.\nTrend: \nTrend history: \n\nDate entered: 02-06-2026\nLast update: 08-06-2026",
+          "source_urls": [],
+          "url_association": "uncertain",
+          "excerpt_scope": "source_segment"
+        }
+      }
+    ],
+    "updates": [
+      {
+        "update_id": "R1043-update-7ce279c2bb69",
+        "date": {
+          "raw": "30/09/2026",
+          "normalized": "2026-09-30",
+          "certainty": "unambiguous"
+        },
+        "summary": "Reports sharply increased refugee arrivals and service pressure in Chad, while identifying no significant new cross-border attacks in the second half of September.",
+        "summary_origin": "agent_ai",
+        "support": {
+          "risk_id": "R1043",
+          "source_column": "Rationale update",
+          "excerpt": "UPDATE 30/09/2026\nThe risk remains active, although no significant new cross-border attacks inside Chad were identified during the second half of September. Humanitarian pressure linked to the Sudan conflict has nevertheless increased sharply as fighting in Darfur and other parts of Sudan drives renewed displacement across the border. By 25 September, more than 400 Sudanese refugees were crossing into Chad each day, around 20 times the rate recorded in previous months, bringing arrivals since the beginning of 2026 to more than 55,000. The acceleration in arrivals is increasing pressure on already overstretched reception areas and services in eastern Chad, while funding constraints affect humanitarian organisations' capacity to provide shelter, food, and relocation assistance. Continued conflict in neighbouring Sudan therefore maintains the risk of further refugee arrivals and humanitarian deterioration in eastern Chad, while the potential for renewed cross-border security incidents remains, given the heightened military presence and tensions established along the border following the August strikes. ([UNHCR 25/09/2026](https://www.unhcr.org/news/briefing-notes/unhcr-its-fourth-year-sudan-conflict-drives-new-displacement-chad-funding-falls), [Reuters 25/09/2026](https://www.reuters.com/world/africa/number-sudanese-fleeing-chad-surges-20-fold-aid-runs-dry-un-says-2026-09-25/))\n\n",
+          "source_urls": [],
+          "url_association": "uncertain",
+          "excerpt_scope": "source_segment"
+        },
+        "source_urls": [
+          "https://www.unhcr.org/news/briefing-notes/unhcr-its-fourth-year-sudan-conflict-drives-new-displacement-chad-funding-falls",
+          "https://www.reuters.com/world/africa/number-sudanese-fleeing-chad-surges-20-fold-aid-runs-dry-un-says-2026-09-25/"
+        ]
+      },
+      {
+        "update_id": "R1043-update-d4b84831e3e2",
+        "date": {
+          "raw": "13/09/2026",
+          "normalized": "2026-09-13",
+          "certainty": "unambiguous"
+        },
+        "summary": "Reports Chad’s allegations of an August cross-border strike and a separate deadly border air strike, prompting heightened security measures.",
+        "summary_origin": "agent_ai",
+        "support": {
+          "risk_id": "R1043",
+          "source_column": "Rationale update",
+          "excerpt": "UPDATE 13/09/2026\nThe risk deteriorated in August 2026 as cross-border violence increasingly affected Chadian territory and prompted stronger security measures. On 21 August, Chad accused Sudanese Armed Forces aircraft and drones of striking a convoy more than 100km inside Ennedi-Est province, prompting authorities to raise the regional alert level to its highest and deploy additional forces. On 28 August, an air strike near the border killed at least 12 people at a fuel market, further increasing civilian protection risks and concerns over escalation. ([Reuters 27/08/2026](https://www.reuters.com/world/africa/chad-accuses-sudan-cross-border-strike-raises-alert-level-2026-08-27/), [AJ 28/08/2026](https://www.aljazeera.com/news/2026/8/28/chad-accuses-sudan-of-deadly-air-strike-near-shared-border)). \n\n\n",
+          "source_urls": [],
+          "url_association": "uncertain",
+          "excerpt_scope": "source_segment"
+        },
+        "source_urls": [
+          "https://www.reuters.com/world/africa/chad-accuses-sudan-cross-border-strike-raises-alert-level-2026-08-27/",
+          "https://www.aljazeera.com/news/2026/8/28/chad-accuses-sudan-of-deadly-air-strike-near-shared-border"
+        ]
+      },
+      {
+        "update_id": "R1043-update-987c18d40673",
+        "date": {
+          "raw": "05/08/2026",
+          "normalized": null,
+          "certainty": "ambiguous_day_month"
+        },
+        "summary": "Reports July drone incidents and other insecurity in eastern Chad, alongside movement controls and continued refugee pressures.",
+        "summary_origin": "agent_ai",
+        "support": {
+          "risk_id": "R1043",
+          "source_column": "Rationale update",
+          "excerpt": "UPDATE 05/08/2026\nThe risk remains active after slightly deteriorating in July. Cross-border insecurity continues along eastern Chad, with new drone attacks reported on 21 July near Tiné amid intensified hostilities in Darfur. One strike in Indour hit a water point, causing livestock losses and possible human casualties, while another damaged an administrative vehicle in Bamina. Between 17 June and 17 July, 23 security incidents were recorded, killing 23 people, nearly half concentrated in Ouaddai and Wadi Fira. Chadian authorities have continued disarmament operations and movement controls in Sila, reflecting persistent concerns over cross-border armed activity. Humanitarian pressures have also increased. Despite the official border closure, 4,126 new refugees arrived in July, while protection conditions during displacement worsened. The proportion of households reporting at least one human rights violation during flight increased from 53% in June to 58% in July, with reported physical violence rising from 22% to 29%. More than 220,000 refugees remain stranded in insecure border areas awaiting relocation, increasing their exposure to insecurity and limited access to services. Over the coming months, further drone strikes, cross-border violence, or proxy mobilisation could further restrict safe movement across eastern Chad and increase protection risks for refugees, returnees, and host communities. The continued backlog of relocations, rainy season access constraints, and the potential suspension of WFP food assistance from September would likely amplify the humanitarian consequences of any further deterioration in border security. ([UNHCR 30/07/2026](https://reliefweb.int/report/chad/flash-updates-55-nouvel-afflux-de-refugies-soudanais-au-tchad), [UNHCR 02/08/2026](https://reliefweb.int/report/chad/projet-21-tchad-urgence-soudanaise-monitoring-aux-frontieres-tendances-cles-juillet-2026), [WFP 27/07/2026](https://reliefweb.int/report/chad/wfp-chad-country-brief-july-2026), [FEWS NET 04/08/2026](https://reliefweb.int/report/chad/tchad-mise-jour-des-messages-cles-retard-dinstallation-de-la-saison-dans-les-provinces-de-lest-deja-en-crise-phase-3-de-lipc-juillet-2026-janvier-2027), [ICG 23/07/2026](https://www.crisisgroup.org/vid/africa/chad/sudans-war-risks-fracturing-eastern-chad)). \n\n\n\n",
+          "source_urls": [],
+          "url_association": "uncertain",
+          "excerpt_scope": "source_segment"
+        },
+        "source_urls": [
+          "https://reliefweb.int/report/chad/flash-updates-55-nouvel-afflux-de-refugies-soudanais-au-tchad",
+          "https://reliefweb.int/report/chad/projet-21-tchad-urgence-soudanaise-monitoring-aux-frontieres-tendances-cles-juillet-2026",
+          "https://reliefweb.int/report/chad/wfp-chad-country-brief-july-2026",
+          "https://reliefweb.int/report/chad/tchad-mise-jour-des-messages-cles-retard-dinstallation-de-la-saison-dans-les-provinces-de-lest-deja-en-crise-phase-3-de-lipc-juillet-2026-janvier-2027",
+          "https://www.crisisgroup.org/vid/africa/chad/sudans-war-risks-fracturing-eastern-chad"
+        ]
+      },
+      {
+        "update_id": "R1043-update-f73df281f2dd",
+        "date": {
+          "raw": "26/06/2026",
+          "normalized": "2026-06-26",
+          "certainty": "unambiguous"
+        },
+        "summary": "Reports insecurity around crossing points and constraints on safe movement, with large refugee and returnee populations increasing exposure.",
+        "summary_origin": "agent_ai",
+        "support": {
+          "risk_id": "R1043",
+          "source_column": "Rationale update",
+          "excerpt": "UPDATE 26/06/2026\nThe risk remains active and has slightly deteriorated. Recent reporting indicates that border insecurity continues to affect eastern Chad, with refugee arrivals from Sudan slowing in May likely because of insecurity around crossing points, including a 26 May drone strike in Al-Tina. This supports the risk logic that violence linked to the Sudan conflict is increasingly affecting Chadian border areas and limiting safe mobility rather than only generating humanitarian spillover. The humanitarian exposure remains high. As of 21 June, 932,771 Sudanese refugees had arrived in Chad since April 2023, while 400,914 Chadian returnees were also recorded. Most new arrivals remain concentrated in Ouaddaï, Wadi Fira, Sila, and Ennedi Est, including 234,499 in Wadi Fira and 509,637 in Ouaddaï. UNHCR also reports that 87% of registered people are women and children and 13% have specific needs.\nProtection risks are also increasing. Border monitoring between 1–15 June found that 63% of interviewed households fled Sudan because of insecurity, 42% reported human rights violations during flight, and 49% had family members still blocked in Sudan, mainly because of lack of transport means. In Wadi Fira, continued Zaghawa–Tama tensions and clashes have restricted movement and access to essential SRH and GBV services. UNFPA also reports a 90% funding gap, severely limiting life-saving SRH and protection services.\nOver the next one to three months, further drone strikes, cross-border violence, or proxy mobilisation could further restrict movement across the Chad–Sudan border, increase protection risks, and strain humanitarian operations in eastern Chad. The acceleration of refugee relocations from unstable border areas to safer inland sites shows that insecurity remains a direct operational concern. If insecurity persists, humanitarian actors may face greater access constraints while refugees, returnees, and host communities face worsening protection, health, and service-access risks.\n([UNFPA 16/06/2026](https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-31-may-2026), [UNHCR 15/06/2026](https://reliefweb.int/report/chad/hcr-tchad-rapport-operationnel-hebdomadaire-du-15-avril-2026), [UNHCR 21/06/2026](https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-21-june-2026), [UNHCR 17/06/2026](https://reliefweb.int/report/chad/p21-tchad-urgence-soudanaise-situation-de-protection-des-nouveaux-arrivants-01-15-juin-2026-fr)). ",
+          "source_urls": [],
+          "url_association": "uncertain",
+          "excerpt_scope": "source_segment"
+        },
+        "source_urls": [
+          "https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-31-may-2026",
+          "https://reliefweb.int/report/chad/hcr-tchad-rapport-operationnel-hebdomadaire-du-15-avril-2026",
+          "https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-21-june-2026",
+          "https://reliefweb.int/report/chad/p21-tchad-urgence-soudanaise-situation-de-protection-des-nouveaux-arrivants-01-15-juin-2026-fr"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "R1043-source-eba180707009",
+        "url": "https://africacenter.org/wp-content/uploads/2026/04/Chad-Risks-Instability.pdf",
+        "source_columns": [
+          "Rationale",
+          "Source",
+          "Triggers"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-4d4c579ec34b",
+        "url": "https://acleddata.com/update/africa-overview-april-2026",
+        "source_columns": [
+          "Rationale",
+          "Source",
+          "Triggers"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-52220e62cf62",
+        "url": "https://globalinitiative.net/analysis/how-border-criminal-economies-are-drawing-chad-further-into-sudans-conflict/",
+        "source_columns": [
+          "Rationale",
+          "Source",
+          "Triggers"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-c141cf249f03",
+        "url": "https://issafrica.org/iss-today/urgent-au-action-could-defuse-rising-chad-sudan-tensions",
+        "source_columns": [
+          "Rationale",
+          "Source",
+          "Triggers"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-99b396e26b69",
+        "url": "https://www.rfi.fr/fr/afrique/20260513-tchad-de-nouvelles-frappes-enregistr%C3%A9es-%C3%A0-la-fronti%C3%A8re-soudanaise-font-craindre-le-pire",
+        "source_columns": [
+          "Rationale",
+          "Source",
+          "Triggers",
+          "Expected impact",
+          "Expected impact sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-e82eb1897917",
+        "url": "https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-17-may-2026",
+        "source_columns": [
+          "Rationale",
+          "Source",
+          "Current vulnerability / Coping capacities",
+          "Current vulnerability / Coping capacities sources",
+          "Expected impact",
+          "Expected impact sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-89fa52f7430d",
+        "url": "https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-30-april-2026",
+        "source_columns": [
+          "Rationale",
+          "Source",
+          "Triggers",
+          "Current vulnerability / Coping capacities",
+          "Current vulnerability / Coping capacities sources",
+          "Expected impact",
+          "Expected impact sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-0e132a5bb036",
+        "url": "https://reliefweb.int/report/chad/chad-food-security-outlook-update-refugee-impacts-are-driving-income-and-consumption-toward-crisis-ipc-phase-3-april-september-2026",
+        "source_columns": [
+          "Triggers",
+          "Current vulnerability / Coping capacities",
+          "Current vulnerability / Coping capacities sources",
+          "Expected impact",
+          "Expected impact sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-d44e978b2488",
+        "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260418-guerre-au-soudan-pour-les-r%C3%A9fugi%C3%A9s-au-tchad-l-espoir-de-migrer-en-europe",
+        "source_columns": [
+          "Current vulnerability / Coping capacities",
+          "Current vulnerability / Coping capacities sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-30d47b90e4cc",
+        "url": "https://www.rfi.fr/fr/afrique/20260428-tchad-les-affrontements-intercommunautaires-se-poursuivent-dans-l-est-du-pays",
+        "source_columns": [
+          "Expected impact",
+          "Expected impact sources"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-05401baf121d",
+        "url": "https://www.unhcr.org/news/briefing-notes/unhcr-its-fourth-year-sudan-conflict-drives-new-displacement-chad-funding-falls",
+        "source_columns": [
+          "Rationale update"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-d8a9f46afdbd",
+        "url": "https://www.reuters.com/world/africa/number-sudanese-fleeing-chad-surges-20-fold-aid-runs-dry-un-says-2026-09-25/",
+        "source_columns": [
+          "Rationale update"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-c5d43575790a",
+        "url": "https://www.reuters.com/world/africa/chad-accuses-sudan-cross-border-strike-raises-alert-level-2026-08-27/",
+        "source_columns": [
+          "Rationale update"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-83e77f0fe003",
+        "url": "https://www.aljazeera.com/news/2026/8/28/chad-accuses-sudan-of-deadly-air-strike-near-shared-border",
+        "source_columns": [
+          "Rationale update"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-3b3809abe7f6",
+        "url": "https://reliefweb.int/report/chad/flash-updates-55-nouvel-afflux-de-refugies-soudanais-au-tchad",
+        "source_columns": [
+          "Rationale update"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-7f7f27577449",
+        "url": "https://reliefweb.int/report/chad/projet-21-tchad-urgence-soudanaise-monitoring-aux-frontieres-tendances-cles-juillet-2026",
+        "source_columns": [
+          "Rationale update"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-1094e21111f3",
+        "url": "https://reliefweb.int/report/chad/wfp-chad-country-brief-july-2026",
+        "source_columns": [
+          "Rationale update"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-4cb6287058ad",
+        "url": "https://reliefweb.int/report/chad/tchad-mise-jour-des-messages-cles-retard-dinstallation-de-la-saison-dans-les-provinces-de-lest-deja-en-crise-phase-3-de-lipc-juillet-2026-janvier-2027",
+        "source_columns": [
+          "Rationale update"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-b0f30397245e",
+        "url": "https://www.crisisgroup.org/vid/africa/chad/sudans-war-risks-fracturing-eastern-chad",
+        "source_columns": [
+          "Rationale update"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-2092ce43f673",
+        "url": "https://reliefweb.int/report/chad/unfpa-situation-report-chad-humanitarian-response-1-31-may-2026",
+        "source_columns": [
+          "Rationale update"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-025341cfd5eb",
+        "url": "https://reliefweb.int/report/chad/hcr-tchad-rapport-operationnel-hebdomadaire-du-15-avril-2026",
+        "source_columns": [
+          "Rationale update"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-8d7d9ff3ae8c",
+        "url": "https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-21-june-2026",
+        "source_columns": [
+          "Rationale update"
+        ],
+        "independently_verified": false
+      },
+      {
+        "source_id": "R1043-source-b2a2f9d89adb",
+        "url": "https://reliefweb.int/report/chad/p21-tchad-urgence-soudanaise-situation-de-protection-des-nouveaux-arrivants-01-15-juin-2026-fr",
+        "source_columns": [
+          "Rationale update"
+        ],
+        "independently_verified": false
+      }
+    ],
+    "chart_data": {
+      "type": "ordinal_probability_impact_matrix",
+      "available": true,
+      "probability_label": "High",
+      "probability_position": 4,
+      "impact_score": 4,
+      "risk_level": "High",
+      "unavailable_reason": null,
+      "scale_note": "Probability positions 1–5 are ordinal categories, not percentages. Exposure is not an exact count."
+    },
+    "quality_flags": [
+      {
+        "code": "moderator_review_required",
+        "detail": "Draft; source links have not been independently verified."
+      },
+      {
+        "code": "export_status_not_current_verification",
+        "detail": "Status is copied from this export, not checked as of today."
+      },
+      {
+        "code": "claim_url_association_uncertain",
+        "detail": "Claim support uses source text; record-level links are not automatically assigned to claims."
+      },
+      {
+        "code": "surrounding_whitespace",
+        "detail": "Source"
+      },
+      {
+        "code": "missing_field",
+        "detail": "What materialised?"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Hazard materialisation"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Materialisation sources"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Impact materialisation description"
+      },
+      {
+        "code": "surrounding_whitespace",
+        "detail": "Rationale update"
+      },
+      {
+        "code": "trigger_history_conflict",
+        "detail": "R1043 - T0619: same date has different completion rates; values retained."
+      },
+      {
+        "code": "update_date_ambiguous_day_month",
+        "detail": "05/08/2026"
+      },
+      {
+        "code": "trigger_date_ambiguous_day_month",
+        "detail": "Original trigger dates retained; uncertain dates not normalized."
+      },
+      {
+        "code": "selective_semantic_extraction",
+        "detail": "Agent drafted a selective overview using source title and narrative overview excerpts. All source text is retained; exhaustive claim coverage and full-record semantic review are not asserted."
+      },
+      {
+        "code": "no_coping_capacity_extracted",
+        "detail": "No positive capacity selected; this does not establish that none exists."
+      },
+      {
+        "code": "broad_support_excerpt",
+        "detail": "Some claims use a full source field as support; moderators should narrow excerpts."
+      }
+    ],
+    "provenance": {
+      "source_record_sha256": "7441762966d8b09c36c21e2c5ca7d0656eede39784132e86bbb933c230a2e0a5",
+      "source_file_sha256": "dfe92309b9fd2cfa017378713212baf1edb1287ba00837945d120a4586df86e5",
+      "ai_execution_mode": "agent_produced_in_chat",
+      "model": null,
+      "prompt_version": "1.0",
+      "processing_status": "processed_draft",
+      "semantic_review": "agent_review_of_source_overview; full_record_moderator_review_required",
+      "ai_input_scope": "Selective source overview: title and narrative openings (typically up to 850 rationale, 600 impact, 550 vulnerability, and 750 characters per update after URL removal); five initial records and selected issue/capacity passages received additional reading. Full source retained. Not an exhaustive semantic review."
+    },
+    "publication_status": {
+      "state": "draft",
+      "requires_moderator_review": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "risk_id": "R0369",
+    "source_record": {
+      "row_number": 18,
+      "fields": {
+        "Risk ID": "R0369",
+        "Risk Title": "An increase in paramilitary and National Liberation Army violence in areas previously held by the Revolutionary Armed Forces of Colombia lead to displacement and access constraints.",
+        "Risk Type": "New emerging risk",
+        "ISO": "COL",
+        "Country": "Colombia",
+        "Rationale": "Growing number of paramilitaries and clashes is likely to increase displacement, especially among the already marginalized and difficult to reach populations.",
+        "Source": null,
+        "Intensity of hazard": "3",
+        "Impact": "3",
+        "Probability": "Medium",
+        "Risk Level": "Medium",
+        "Risk trend": null,
+        "Status": "Materialised",
+        "What materialised?": null,
+        "Hazard materialisation": null,
+        "Materialisation sources": null,
+        "Triggers": null,
+        "Current vulnerability / Coping capacities": null,
+        "Current vulnerability / Coping capacities sources": null,
+        "Expected exposure": "20,000-100,000",
+        "Expected impact": null,
+        "Expected impact sources": null,
+        "Expected priority needs": null,
+        "Impact materialisation description": null,
+        "Rationale update": null
+      }
+    },
+    "acaps_assessment": {
+      "title": {
+        "raw": "An increase in paramilitary and National Liberation Army violence in areas previously held by the Revolutionary Armed Forces of Colombia lead to displacement and access constraints.",
+        "normalized": "An increase in paramilitary and National Liberation Army violence in areas previously held by the Revolutionary Armed Forces of Colombia lead to displacement and access constraints."
+      },
+      "risk_type": {
+        "raw": "New emerging risk",
+        "normalized": "New emerging risk"
+      },
+      "risk_level": {
+        "raw": "Medium",
+        "normalized": "Medium"
+      },
+      "probability": {
+        "raw": "Medium",
+        "normalized": "Medium"
+      },
+      "impact": {
+        "raw": "3",
+        "normalized": 3
+      },
+      "hazard_intensity": {
+        "raw": "3",
+        "normalized": 3
+      },
+      "risk_trend": {
+        "raw": null,
+        "normalized": null
+      },
+      "status": {
+        "raw": "Materialised",
+        "normalized": "Materialised"
+      },
+      "exposure_category": {
+        "raw": "20,000-100,000",
+        "normalized": "20,000-100,000"
+      },
+      "countries": {
+        "raw": "Colombia",
+        "normalized": [
+          "Colombia"
+        ]
+      },
+      "iso_codes": {
+        "raw": "COL",
+        "normalized": [
+          "COL"
+        ]
+      },
+      "priority_needs": {
+        "raw": null,
+        "normalized": []
+      }
+    },
+    "ai_content": {
+      "label": "AI-generated draft",
+      "short_title": "Armed group violence threatens displacement in former FARC-controlled areas",
+      "summary": "The historical assessment warns that increasing paramilitary and National Liberation Army violence in former FARC-controlled areas of Colombia could cause displacement and restrict access. It identifies already marginalised, difficult-to-reach populations as particularly exposed. Detailed impacts, coping capacities, and dated updates are absent, so the record needs additional evidence before a contemporary interpretation.",
+      "key_assessment_points": [
+        {
+          "point_id": "R0369-assessment-f84db9daf06b",
+          "text": "Growing armed group activity could displace marginalised, hard-to-reach communities.",
+          "origin": "agent_ai",
+          "support": {
+            "risk_id": "R0369",
+            "source_column": "Rationale",
+            "excerpt": "Growing number of paramilitaries and clashes is likely to increase displacement, especially among the already marginalized and difficult to reach populations.",
+            "source_urls": [],
+            "url_association": "not_available",
+            "excerpt_scope": "source_field"
+          }
+        }
+      ],
+      "expected_humanitarian_impacts": [
+        {
+          "point_id": "R0369-impact-54515e67fa3c",
+          "text": "Further armed violence could displace marginalised communities and restrict access.",
+          "origin": "agent_ai",
+          "support": {
+            "risk_id": "R0369",
+            "source_column": "Risk Title",
+            "excerpt": "An increase in paramilitary and National Liberation Army violence in areas previously held by the Revolutionary Armed Forces of Colombia lead to displacement and access constraints.",
+            "source_urls": [],
+            "url_association": "not_available",
+            "excerpt_scope": "source_field"
+          }
+        }
+      ],
+      "vulnerabilities": [],
+      "coping_capacities": [],
+      "suggested_expert_review_questions": [
+        {
+          "question_id": "R0369-question-132b9bf7af7f",
+          "text": "Which formerly FARC-controlled communities show evidence of the anticipated displacement?",
+          "origin": "agent_ai",
+          "label": "AI-generated suggestion"
+        },
+        {
+          "question_id": "R0369-question-2ff9f217c7f7",
+          "text": "What access constraints and local coping capacities are missing from this sparse assessment?",
+          "origin": "agent_ai",
+          "label": "AI-generated suggestion"
+        }
+      ]
+    },
+    "triggers": [],
+    "updates": [],
+    "sources": [],
+    "chart_data": {
+      "type": "ordinal_probability_impact_matrix",
+      "available": true,
+      "probability_label": "Medium",
+      "probability_position": 3,
+      "impact_score": 3,
+      "risk_level": "Medium",
+      "unavailable_reason": null,
+      "scale_note": "Probability positions 1–5 are ordinal categories, not percentages. Exposure is not an exact count."
+    },
+    "quality_flags": [
+      {
+        "code": "moderator_review_required",
+        "detail": "Draft; source links have not been independently verified."
+      },
+      {
+        "code": "export_status_not_current_verification",
+        "detail": "Status is copied from this export, not checked as of today."
+      },
+      {
+        "code": "claim_url_association_uncertain",
+        "detail": "Claim support uses source text; record-level links are not automatically assigned to claims."
+      },
+      {
+        "code": "missing_field",
+        "detail": "Source"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Risk trend"
+      },
+      {
+        "code": "missing_field",
+        "detail": "What materialised?"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Hazard materialisation"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Materialisation sources"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Triggers"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Current vulnerability / Coping capacities"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Current vulnerability / Coping capacities sources"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Expected impact"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Expected impact sources"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Expected priority needs"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Impact materialisation description"
+      },
+      {
+        "code": "missing_field",
+        "detail": "Rationale update"
+      },
+      {
+        "code": "selective_semantic_extraction",
+        "detail": "Agent drafted a selective overview using source title and narrative overview excerpts. All source text is retained; exhaustive claim coverage and full-record semantic review are not asserted."
+      },
+      {
+        "code": "no_coping_capacity_extracted",
+        "detail": "No positive capacity selected; this does not establish that none exists."
+      }
+    ],
+    "provenance": {
+      "source_record_sha256": "eb2b3e51fc3846df595dfd54cf002ffda0863239b256f5bc0946a6ec05edee22",
+      "source_file_sha256": "dfe92309b9fd2cfa017378713212baf1edb1287ba00837945d120a4586df86e5",
+      "ai_execution_mode": "agent_produced_in_chat",
+      "model": null,
+      "prompt_version": "1.0",
+      "processing_status": "processed_draft",
+      "semantic_review": "agent_review_of_source_overview; full_record_moderator_review_required",
+      "ai_input_scope": "Selective source overview: title and narrative openings (typically up to 850 rationale, 600 impact, 550 vulnerability, and 750 characters per update after URL removal); five initial records and selected issue/capacity passages received additional reading. Full source retained. Not an exhaustive semantic review."
+    },
+    "publication_status": {
+      "state": "draft",
+      "requires_moderator_review": true
+    }
+  }
+]
